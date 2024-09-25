@@ -37,11 +37,20 @@ def add_card_properties(card_element, card):
     # Now add 'prop' element
     prop = ET.SubElement(card_element, "prop")
 
-    ET.SubElement(prop, "Archetype").text = card.get('archetype', '')
-    ET.SubElement(prop, "cmc").text = str(card.get('level', '0'))  # Convert to string
+    card_archetype = card.get('archetype', '')
+    if card_archetype != '':
+        ET.SubElement(prop, "Archetype").text = card_archetype
+
+    ET.SubElement(prop, "cmc").text = str(card.get('level', '0'))
     ET.SubElement(prop, "colors").text = card.get('attribute', 'NORMAL')
-    ET.SubElement(prop, "Konami_ID").text = str(card.get('id', ''))  # Ensure ID is a string
-    ET.SubElement(prop, "maintype").text = card.get('type', '')
+    ET.SubElement(prop, "Konami_ID").text = str(card.get('id', ''))
+
+    card_type = card.get('type', '')
+    if "Monster" in card_type:
+        ET.SubElement(prop, "maintype").text = 'Monster'
+        ET.SubElement(prop, "Complete_Card_type").text = card_type
+    else:
+        ET.SubElement(prop, "maintype").text = card_type
 
     # Add "pt" only if the card is a monster
     if 'monster' in card.get('type', '').lower():  # Check if card type includes "monster"
