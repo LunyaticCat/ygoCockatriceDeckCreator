@@ -1,7 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
-import html  # Import the html module for escaping
-import xml.dom.minidom as minidom  # For pretty-printing XML
+import html
+import xml.dom.minidom as minidom
 
 # YGOPRODeck API URL
 API_URL = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
@@ -19,22 +19,17 @@ def fetch_all_cards():
 
 # Function to escape and decode card description
 def escape_description(description):
-    # Decode HTML entities
     decoded_desc = html.unescape(description)
-    # Replace double-encoded apostrophes if necessary
     return decoded_desc.replace("&#x27;", "'").replace("\n", " ")
 
 
 # Function to add card properties to the XML
 def add_card_properties(card_element, card):
-    # Add 'name' element
     ET.SubElement(card_element, "name").text = card.get('name', '')
 
-    # Add 'text' element next, as per XSD
     description = card.get('desc', '')
     ET.SubElement(card_element, "text").text = escape_description(description)
 
-    # Now add 'prop' element
     prop = ET.SubElement(card_element, "prop")
 
     card_archetype = card.get('archetype', '')
@@ -53,7 +48,7 @@ def add_card_properties(card_element, card):
         ET.SubElement(prop, "maintype").text = card_type
 
     # Add "pt" only if the card is a monster
-    if 'monster' in card.get('type', '').lower():  # Check if card type includes "monster"
+    if 'monster' in card.get('type', '').lower():
         ET.SubElement(prop, "pt").text = f"{str(card.get('atk', '?'))}/{str(card.get('def', '?'))}"  # Ensure atk/def are strings
 
     ET.SubElement(prop, "type").text = card.get('race', '')
@@ -105,12 +100,9 @@ def save_xml(tree, filename):
 
 
 if __name__ == "__main__":
-    # Fetch all cards from YGOPRODeck
     cards = fetch_all_cards()
 
     if cards:
-        # Create XML structure
         cockatrice_tree = create_cockatrice_xml(cards)
 
-        # Save pretty-printed XML to a file
         save_xml(cockatrice_tree, "ygopro_cockatrice.xml")
