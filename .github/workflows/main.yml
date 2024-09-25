@@ -29,6 +29,6 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --local user.name "LunaticCat"
-          git add ygopro_cockatrice.xml
+          git add -f ygopro_cockatrice.xml
           git commit -m "Update XML file" || echo "No changes to commit"
           git push origin main
