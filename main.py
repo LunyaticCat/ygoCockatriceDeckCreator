@@ -36,7 +36,7 @@ def add_card_properties(card_element, card):
     if card_archetype != '':
         ET.SubElement(prop, "Archetype").text = card_archetype
 
-    ET.SubElement(prop, "cmc").text = str(card.get('level', '0'))
+    ET.SubElement(prop, "manacost").text = str(card.get('level', 'None'))
     ET.SubElement(prop, "colors").text = card.get('attribute', 'NORMAL')
     ET.SubElement(prop, "Konami_ID").text = str(card.get('id', ''))
 
@@ -71,15 +71,13 @@ def create_cockatrice_xml(cards):
         card_sets = card.get('card_sets', [])
         if not card_sets:
             # Add a default set if no sets are provided
-            set_element = ET.SubElement(card_element, "set", rarity="Unknown")
+            set_element = ET.SubElement(card_element, "set", rarity="Unknown", picURL=card['card_images'][0]['image_url'])
             set_element.text = "Unknown"
-            ET.SubElement(card_element, "set", picURL=card['card_images'][0]['image_url']).text = f"°{card['id']}.1"
 
         # Set information for card sets
         for card_set in card_sets:
-            set_element = ET.SubElement(card_element, "set", rarity=card_set.get('set_rarity', ''))
-            set_element.text = card_set.get('set_code', '')
-            ET.SubElement(card_element, "set", picURL=card['card_images'][0]['image_url']).text = f"°{card['id']}.1"
+            set_element = ET.SubElement(card_element, "set", rarity=card_set.get('set_rarity', ''), picURL=card['card_images'][0]['image_url'])
+            set_element.text = card_set.get('set_name', '')
 
     return ET.ElementTree(root)
 
