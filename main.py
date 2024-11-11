@@ -4,7 +4,8 @@ import html
 import xml.dom.minidom as minidom
 
 # YGOPRODeck API URL
-API_URL = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
+API_URL  = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
+SETS_URL = "https://db.ygoprodeck.com/api/v7/cardsets.php"
 
 
 # Function to fetch all cards from YGOPRODeck API
@@ -16,6 +17,13 @@ def fetch_all_cards():
         print(f"Failed to fetch cards: {response.status_code}")
         return []
 
+def fetch_all_sets():
+    response = requests.get(SETS_URL)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Failed to fetch cards: {response.status_code}")
+        return []
 
 # Function to escape and decode card description
 def escape_description(description):
@@ -53,20 +61,31 @@ def add_card_properties(card_element, card):
 
     ET.SubElement(prop, "type").text = card.get('race', '')
 
+def add_set_properties(set_element, set):
+    ET.SubElement(set_element, "name").text = set.get('set_code', '')
+    ET.SubElement(set_element, "longname").text = set.get('set_name', '')
+    ET.SubElement(set_element, "settype").text = "Yu-Gi-Oh"
+    ET.SubElement(set_element, "releasedate").text = set.get('tcg_date', '')
+
 
 # Function to create XML structure for Cockatrice
-def create_cockatrice_xml(cards):
+def create_cockatrice_xml(cards, sets):
     root = ET.Element("cockatrice_carddatabase", version="4", attrib={
         'xmlns:xsi': "http://www.w3.org/2001/XMLSchema-instance",
         'xsi:schemaLocation': "https://raw.githubusercontent.com/Cockatrice/Cockatrice/master/doc/carddatabase_v4/cards.xsd"
     })
 
     sets_element = ET.SubElement(root, "sets")
+
+    for set in sets:
+        set_element = ET.SubElement(sets_element, "set")
+        add_set_properties(set_element, set)
+
     cards_element = ET.SubElement(root, "cards")
 
     for card in cards:
         card_element = ET.SubElement(cards_element, "card")
-        add_card_properties(card_element, card)  # Add properties to the card element
+        add_card_properties(card_element, card)
 
         card_sets = card.get('card_sets', [])
         if not card_sets:
@@ -77,7 +96,7 @@ def create_cockatrice_xml(cards):
         # Set information for card sets
         for card_set in card_sets:
             set_element = ET.SubElement(card_element, "set", rarity=card_set.get('set_rarity', ''), picURL=card['card_images'][0]['image_url'])
-            set_element.text = card_set.get('set_name', '')
+            set_element.text = card_set.get('set_code', '').split("-")[0]
 
     return ET.ElementTree(root)
 
@@ -99,8 +118,9 @@ def save_xml(tree, filename):
 
 if __name__ == "__main__":
     cards = fetch_all_cards()
+    sets  = fetch_all_sets()
 
     if cards:
-        cockatrice_tree = create_cockatrice_xml(cards)
+        cockatrice_tree = create_cockatrice_xml(cards, sets)
 
         save_xml(cockatrice_tree, "ygopro_cockatrice.xml")
