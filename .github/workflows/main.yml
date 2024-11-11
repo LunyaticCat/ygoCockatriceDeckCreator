@@ -26,9 +26,13 @@ jobs:
       - name: Run the script
         run: python main.py
 
+      - name: Zip XML file
+        run: zip ygopro_cockatrice.zip ygopro_cockatrice.xml
+
       - name: Commit and push changes
         run: |
           git config --local user.name "LunaticCat"
           git add -f ygopro_cockatrice.xml
+          git add -f ygopro_cockatrice.zip
           git commit -m "Update XML file" || echo "No changes to commit"
           git push origin main
