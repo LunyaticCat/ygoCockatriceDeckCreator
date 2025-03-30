@@ -1,3 +1,5 @@
+import uuid
+
 import requests
 import xml.etree.ElementTree as ET
 import html
@@ -6,6 +8,8 @@ import xml.dom.minidom as minidom
 # YGOPRODeck API URL
 API_URL  = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
 SETS_URL = "https://db.ygoprodeck.com/api/v7/cardsets.php"
+
+NAMESPACE = uuid.UUID("12345678-1234-5678-1234-567812345678")
 
 
 # Function to fetch all cards from YGOPRODeck API
@@ -67,6 +71,8 @@ def add_set_properties(set_element, set):
     ET.SubElement(set_element, "settype").text = "Yu-Gi-Oh"
     ET.SubElement(set_element, "releasedate").text = set.get('tcg_date', '')
 
+def generate_deterministic_uuid(set_code):
+    return str(uuid.uuid5(NAMESPACE, str(set_code)))
 
 # Function to create XML structure for Cockatrice
 def create_cockatrice_xml(cards, sets):
@@ -87,16 +93,12 @@ def create_cockatrice_xml(cards, sets):
         card_element = ET.SubElement(cards_element, "card")
         add_card_properties(card_element, card)
 
-        card_sets = card.get('card_sets', [])
-        if not card_sets:
-            # Add a default set if no sets are provided
-            set_element = ET.SubElement(card_element, "set", rarity="Unknown", picURL=card['card_images'][0]['image_url'])
-            set_element.text = "Unknown"
+        card_sets = card.get('card_images', [])
 
         # Set information for card sets
         for card_set in card_sets:
-            set_element = ET.SubElement(card_element, "set", rarity=card_set.get('set_rarity', ''), picURL=card['card_images'][0]['image_url'])
-            set_element.text = card_set.get('set_code', '').split("-")[0]
+            set_element = ET.SubElement(card_element, "set", picURL=card_set["image_url"], uuid=generate_deterministic_uuid(card_set["id"]))
+            set_element.text = "YGO"
 
     return ET.ElementTree(root)
 
