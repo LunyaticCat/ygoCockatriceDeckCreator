@@ -65,12 +65,6 @@ def add_card_properties(card_element, card):
 
     ET.SubElement(prop, "type").text = card.get('race', '')
 
-def add_set_properties(set_element, set):
-    ET.SubElement(set_element, "name").text = set.get('set_code', '')
-    ET.SubElement(set_element, "longname").text = set.get('set_name', '')
-    ET.SubElement(set_element, "settype").text = "Yu-Gi-Oh"
-    ET.SubElement(set_element, "releasedate").text = set.get('tcg_date', '')
-
 def generate_deterministic_uuid(set_code):
     return str(uuid.uuid5(NAMESPACE, str(set_code)))
 
@@ -83,9 +77,10 @@ def create_cockatrice_xml(cards, sets):
 
     sets_element = ET.SubElement(root, "sets")
 
-    for set in sets:
-        set_element = ET.SubElement(sets_element, "set")
-        add_set_properties(set_element, set)
+    set_element = ET.SubElement(sets_element, "set")
+    ET.SubElement(set_element, "name").text = "YGO"
+    ET.SubElement(set_element, "longname").text = "Yu-Gi-Oh"
+    ET.SubElement(set_element, "settype").text = "Yu-Gi-Oh"
 
     cards_element = ET.SubElement(root, "cards")
 
