@@ -11579,7 +11579,7 @@
     </card>
     <card>
       <name>Assault Sonic Warrior</name>
-      <text>If you control &quot;Junk Warrior&quot;, &quot;Assault Mode Activate&quot;, or a card that mentions either of them: You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 &quot;Synchron&quot; monster or &quot;Assault Mode Activate&quot; from your Deck to your hand. If this card is sent to the GY as Synchro Material: You can activate this effect; this turn, monsters you control gain 500 ATK. You can only use each effect of &quot;Assault Sonic Warrior&quot; once per turn.</text>
+      <text>If you control &quot;Junk Warrior&quot;, &quot;Assault Mode Activate&quot;, or a card that mentions either of those cards: You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 &quot;Synchron&quot; monster or 1 &quot;Assault Mode Activate&quot; from your Deck to your hand. If this card is sent to the GY as Synchro Material: You can make all monsters you control gain 500 ATK, for the rest of this turn. You can only use each effect of &quot;Assault Sonic Warrior&quot; once per turn.</text>
       <prop>
         <Archetype>Warrior</Archetype>
         <manacost>2</manacost>
@@ -11774,6 +11774,20 @@
         <type>Spellcaster</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/48171151.jpg" uuid="7b1df28e-ef9f-558f-89ab-596b55991027">YGO</set>
+    </card>
+    <card>
+      <name>Astrolasma Urania</name>
+      <text>You can Special Summon this card (from your hand) by returning up to 2 monsters you control to the hand. You can only Special Summon &quot;Astrolasma Urania&quot; once per turn this way. You can only use each of the following effects of &quot;Astrolasma Urania&quot; once per turn. If this card is Special Summoned: You can reveal any number of monsters with different Levels in your hand, then target that many face-up cards your opponent controls; negate their effects. If this card on the field is destroyed by card effect and sent to the GY: You can add this card to your hand.</text>
+      <prop>
+        <manacost>7</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>101305023</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>2400/1000</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305023.jpg" uuid="4b097674-e835-5d11-aa9c-a1d639c06443">YGO</set>
     </card>
     <card>
       <name>Asura Priest</name>
@@ -12187,6 +12201,7 @@
  (This card is always treated as a &quot;Familiar-Possessed&quot; card.)
  You can target 1 EARTH monster in your opponent's GY; Special Summon it to your zone this card points to. If this Link Summoned card is destroyed by battle, or is destroyed by an opponent's card effect while in its owner's Monster Zone: You can add 1 EARTH monster with 1500 or less DEF from your Deck to your hand. You can only use each effect of &quot;Aussa the Earth Charmer, Immovable&quot; once per turn.</text>
       <prop>
+        <Archetype>Charmer</Archetype>
         <manacost>None</manacost>
         <colors>EARTH</colors>
         <Konami_ID>97661969</Konami_ID>
@@ -19071,6 +19086,61 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/28279365.jpg" uuid="cdcbb837-1371-5c4f-8ca7-6f106db912b9">YGO</set>
     </card>
     <card>
+      <name>Blitzclique - Alternator</name>
+      <text>Monsters your opponent controls lose 300 ATK/DEF for each Thunder monster you control. You can only use each of the following effects of &quot;Blitzclique - Alternator&quot; once per turn. You can shuffle 1 other &quot;Blitzclique&quot; card from your hand or face-up field into the Deck; add 1 Thunder monster with a different name from your Deck to your hand. You can banish this card from your GY; add 1 &quot;Blitzclique&quot; Spell or &quot;Kowloon, Citadel of the Sky&quot; from your Deck to your hand.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305069</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305069.jpg" uuid="85f99732-40ed-5033-b0f4-59d117e29390">YGO</set>
+    </card>
+    <card>
+      <name>Blitzclique - Breakaway</name>
+      <text>Activate 1 of these effects;
+ ● Place 1 &quot;Blitzclique&quot; Continuous Trap from your Deck face-up on your field.
+ ● Return 1 Thunder monster you control to the hand, then target 1 card on the field; destroy it.
+ If a card(s) is destroyed by your &quot;Blitzclique&quot; card's effect, while this card is in your GY: You can add this card to your hand. You can only use each effect of &quot;Blitzclique - Breakaway&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305051</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Quick-Play</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305051.jpg" uuid="7b11e9a5-22c8-5aee-9da2-84f1b1174463">YGO</set>
+    </card>
+    <card>
+      <name>Blitzclique - Return Stroke</name>
+      <text>&quot;Blitzclique&quot; monsters you control cannot be destroyed by your opponent's card effects. You can only use each of the following effects of &quot;Blitzclique - Return Stroke&quot; once per turn. When your opponent activates a Spell Card or effect: You can return 1 &quot;Blitzclique&quot; monster you control to the hand; negate that effect, and if you do, destroy that card. You can banish this card from your GY, then target 1 &quot;Blitzclique&quot; monster in your field or GY; return it to the hand.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305068</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305068.jpg" uuid="da2c9798-a742-5f16-aa33-c04648df4bff">YGO</set>
+    </card>
+    <card>
+      <name>Blitzclique - Stepped Leader</name>
+      <text>If a card(s) is destroyed by your &quot;Blitzclique&quot; card's effect: You can target 1 Thunder monster in your GY; add it to your hand. During your Main Phase: You can Special Summon 1 Thunder monster from your hand, then destroy this card. If a card(s) is destroyed by your &quot;Blitzclique&quot; card's effect, while this card is in your GY: You can add this card to your hand. You can only use each effect of &quot;Blitzclique - Stepped Leader&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305052</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305052.jpg" uuid="d1b4c009-c833-5dfa-a99f-602d9803285d">YGO</set>
+    </card>
+    <card>
       <name>Blizzard</name>
       <text>Target 1 face-up Spell your opponent controls; this turn, negate the activated effects of that Spell and all Spells on the field with that same original name. If the targeted card would be sent to the opponent's GY this turn, it is added to their hand instead. You can only activate 1 &quot;Blizzard&quot; per turn.</text>
       <prop>
@@ -19681,6 +19751,22 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/53183600.jpg" uuid="f484089a-0cd2-5e0b-b117-7ee64b662ffa">YGO</set>
     </card>
     <card>
+      <name>Blue-Eyes Toon Ultimate Dragon</name>
+      <text>&quot;Blue-Eyes Toon Dragon&quot; + 2 Toon monsters
+ Must be Special Summoned (from your Extra Deck) by shuffling the above cards from your hand, field, and/or GY into the Deck/Extra Deck. Your Toon monsters can attack directly. Once per turn: You can add 1 &quot;Toon&quot; card, or 1 card that mentions a &quot;Toon&quot; card's name, from your GY to your hand. During damage calculation, if your Toon monster is attacked: You can banish it until the end of the Damage Step.</text>
+      <prop>
+        <Archetype>Blue-Eyes</Archetype>
+        <manacost>12</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>100455005</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Toon Monster</Complete_Card_type>
+        <pt>4500/3800</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100455005.jpg" uuid="39b83710-cd15-5354-ac80-0302dd2bcbac">YGO</set>
+    </card>
+    <card>
       <name>Blue-Eyes Twin Burst Dragon</name>
       <text>&quot;Blue-Eyes White Dragon&quot; + &quot;Blue-Eyes White Dragon&quot;
  Must be either Fusion Summoned, or Special Summoned by sending the above monsters you control to the GY (in which case you do not use &quot;Polymerization&quot;). Cannot be destroyed by battle. This card can make up to 2 attacks on monsters during each Battle Phase. At the end of the Damage Step, when this card attacks an opponent's monster, but the opponent's monster was not destroyed by the battle: You can banish that opponent's monster.</text>
@@ -19766,6 +19852,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/89631144.jpg" uuid="1226ac5f-8402-55fc-9a27-491304db651f">YGO</set>
       <set picURL="https://images.ygoprodeck.com/images/cards/89631145.jpg" uuid="bd02d87d-d26a-5b0a-993c-a36eee6f3599">YGO</set>
       <set picURL="https://images.ygoprodeck.com/images/cards/89631146.jpg" uuid="452f2c9c-9f9e-5ecb-b5ce-1c9929627d83">YGO</set>
+    </card>
+    <card>
+      <name>Blue-Eyes White Dragon, the White Phantom Beast</name>
+      <text>When a card or effect is activated that targets this card on the field (Quick Effect): You can discard 1 card; negate that effect. You can only use each of the following effects of &quot;Blue-Eyes White Dragon, the White Phantom Beast&quot; once per turn. When this card is added from the Deck to your hand, or your monster is destroyed by battle: You can reveal this card in your hand; Special Summon it. If this card is Special Summoned from the hand or Deck: You can destroy all monsters your opponent controls, also you cannot attack directly for the rest of this turn, except with &quot;Blue-Eyes&quot; monsters.</text>
+      <prop>
+        <Archetype>Blue-Eyes</Archetype>
+        <manacost>8</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>30397786</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>3000/2500</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/30397786.jpg" uuid="5cbbfdf4-f069-577a-b6b0-dc6789068d8b">YGO</set>
     </card>
     <card>
       <name>Blue-Winged Crown</name>
@@ -20526,6 +20627,22 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/92892239.jpg" uuid="73c234cc-3d40-57b2-a10d-9c4f9e0397d0">YGO</set>
+    </card>
+    <card>
+      <name>Borreload Liberator Dragon</name>
+      <text>3+ Effect Monsters
+ You can only Special Summon &quot;Borreload Liberator Dragon(s)&quot; once per turn. Once per turn, during the Battle Phase (Quick Effect): You can place 1 monster your opponent controls in a zone this card points to and take control of it. Your opponent cannot activate cards or effects in response to this effect's activation. Once per Chain, if this card is in your GY (Quick Effect): You can target 1 monster you control; destroy it, and if you do, Special Summon this card.</text>
+      <prop>
+        <Archetype>Borrel</Archetype>
+        <manacost>None</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>27096833</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Link Monster</Complete_Card_type>
+        <pt>3000/None</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/27096833.jpg" uuid="2e194b8b-7bd2-5655-a6b5-71bc72549864">YGO</set>
     </card>
     <card>
       <name>Borreload Riot Dragon</name>
@@ -21447,6 +21564,20 @@
         <type>Continuous</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/58882608.jpg" uuid="6cd01430-6a0f-5877-9e41-996d363ac51e">YGO</set>
+    </card>
+    <card>
+      <name>Breeze the Electrovore of Rkunas</name>
+      <text>''A mysterious dog that emits light for a brief moment by emitting its own life energy. After witnessing it, its endearing image is etched into your mind and never leaves you.''</text>
+      <prop>
+        <manacost>1</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>100436101</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Normal Monster</Complete_Card_type>
+        <pt>100/2100</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100436101.jpg" uuid="e3ac208c-fc13-5f03-9529-8fa41dfb49ce">YGO</set>
     </card>
     <card>
       <name>Bri Synchron</name>
@@ -25927,6 +26058,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/61044390.jpg" uuid="01f6dd9f-17c7-5a7d-aa18-53c01f275149">YGO</set>
     </card>
     <card>
+      <name>Chaos End Ruler - Ruler of the Beginning and the End</name>
+      <text>Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 LIGHT Warrior and 1 DARK Fiend monster from your GY. This card's Special Summon cannot be negated. Neither player can activate cards or effects when this card is Special Summoned. If you control this card that was Summoned its own way: You can pay 1000 LP; banish as many cards from your opponent's field and GY as possible, then inflict 500 damage to your opponent for each card banished by this effect. You can only use this effect of &quot;Chaos End Ruler - Ruler of the Beginning and the End&quot; once per turn.</text>
+      <prop>
+        <Archetype>Chaos</Archetype>
+        <manacost>10</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>41424250</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>3500/2000</pt>
+        <type>Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/41424250.jpg" uuid="e0dceb04-ad9b-52c9-8a35-ad2158706884">YGO</set>
+    </card>
+    <card>
       <name>Chaos Form</name>
       <text>This card can be used to Ritual Summon any &quot;Chaos&quot; or &quot;Black Luster Soldier&quot; Ritual Monster. You must also Tribute monsters from your hand or field and/or banish &quot;Blue-Eyes White Dragon&quot; or &quot;Dark Magician&quot; from your GY, whose total Levels exactly equal the Level of the &quot;Chaos&quot; or &quot;Black Luster Soldier&quot; Ritual Monster you Ritual Summon.</text>
       <prop>
@@ -26376,6 +26522,22 @@
         <type>Rock</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/50412166.jpg" uuid="b880a8bb-cfd0-5d9e-b432-d903b8c81667">YGO</set>
+    </card>
+    <card>
+      <name>Charmer Quartet in Bloom</name>
+      <text>2+ monsters
+ Gains 300 ATK for each different Attribute on the field. Once, while this card is face-up on the field, during the Main Phase (Quick Effect): You can target 2 monsters in your GY with the same Attribute but different Types, or with the same Type but different Attributes; Special Summon both, also until the end of the next turn, this card and the Special Summoned monsters cannot be used as material for a Fusion, Synchro, Xyz, or Link Summon. You can only use this effect of &quot;Charmer Quartet in Bloom&quot; once per turn.</text>
+      <prop>
+        <Archetype>Charmer</Archetype>
+        <manacost>None</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>27519978</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Link Monster</Complete_Card_type>
+        <pt>1850/None</pt>
+        <type>Spellcaster</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/27519978.jpg" uuid="917e9d2f-93a2-508f-a42f-ea1416642fdf">YGO</set>
     </card>
     <card>
       <name>Charmers of the Grand Circle</name>
@@ -28080,6 +28242,23 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/82044279.jpg" uuid="9eb3cc27-679f-5685-adba-5f044fce97de">YGO</set>
     </card>
     <card>
+      <name>Clear Wing Synchro Dragon of the Four Heavenly Dragons</name>
+      <text>1 Tuner + 1+ non-Tuners
+ (This card is always treated as a &quot;Speedroid&quot; card.)
+ If this card is Special Summoned: You can destroy 1 Effect Monster your opponent controls, and if you do, this card gains ATK equal to that monster's original ATK. When your opponent activates a card or effect (Quick Effect): You can Special Summon 1 Level 4 or lower WIND Tuner from your hand or GY (but negate its effects), then immediately after this effect resolves, you can Synchro Summon 1 WIND Synchro Monster. You can only use each effect of &quot;Clear Wing Synchro Dragon of the Four Heavenly Dragons&quot; once per turn.</text>
+      <prop>
+        <Archetype>Clear Wing</Archetype>
+        <manacost>7</manacost>
+        <colors>WIND</colors>
+        <Konami_ID>54603525</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Synchro Monster</Complete_Card_type>
+        <pt>2500/2000</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/54603525.jpg" uuid="ca0be5f0-fa79-5c4f-89e7-acdbf39e4c24">YGO</set>
+    </card>
+    <card>
       <name>Clear World</name>
       <text>During each of your End Phases, pay 500 Life Points or destroy this card. Each player receives effects, depending on the monster Attributes they control. ● LIGHT: Play with your hand revealed at all times. ● DARK: If you control 2 or more monsters, you cannot declare an attack. ● EARTH: During your Standby Phase: Target 1 face-up Defense Position monster you control; destroy that target. ● WATER: During your End Phase: Discard 1 card. ● FIRE: During your End Phase: Take 1000 damage. ● WIND: You must pay 500 Life Points to activate a Spell Card.</text>
       <prop>
@@ -28530,6 +28709,19 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/300302059.jpg" uuid="11215d4a-d641-5235-ac5b-d69540b3a383">YGO</set>
     </card>
     <card>
+      <name>Clown Clan &quot;Finale&quot;</name>
+      <text>If you control a Tribute Summoned monster: Discard any number of cards, then target that many face-up cards on the field; destroy them. You can banish this card from your GY and Tribute 1 Ritual, Fusion, Synchro, Xyz, Pendulum, or Link Monster from your hand or field; add 1 &quot;Clown Clan&quot; monster from your Deck or GY to your hand whose original Level/Rank/Link Rating is not equal to the Tributed monster's. You can only use each effect of &quot;Clown Clan &quot;Finale&quot;&quot; once per turn.</text>
+      <prop>
+        <Archetype>Clown Clan</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305076</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305076.jpg" uuid="d985ec00-1490-554b-886e-c57390fea29c">YGO</set>
+    </card>
+    <card>
       <name>Clown Clan &quot;Malabarism&quot;</name>
       <text>Special Summon up to 2 &quot;Clown Clan&quot; monsters from your Deck and/or Extra Deck, ignoring their Summoning conditions, also you cannot activate the effects of monsters Special Summoned from the Deck or Extra Deck until the end of the next turn after this card resolves. During your Main Phase, if this card in your GY, except the turn it was sent there: You can banish it and Tribute 1 monster from your hand or field, then target 1 card on the field; return it to the hand. You can only use each effect of &quot;Clown Clan &quot;Malabarism&quot;&quot; once per turn.</text>
       <prop>
@@ -28634,6 +28826,24 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/31533473.jpg" uuid="0a78c865-3427-5a22-8a87-bf83bb8622e1">YGO</set>
     </card>
     <card>
+      <name>Clown Clan Drish</name>
+      <text>2 Ritual, Fusion, Synchro, Xyz, and/or Pendulum Monsters
+ Your Tribute Summoned monsters can make a second attack during each Battle Phase. If this card is Tributed: You can activate 1 of these effects (but you can only use each of these effects of &quot;Clown Clan Drish&quot; once per turn);
+ ● Return all Link Monsters on the field and in the GYs to the Extra Deck.
+ ● Each player shuffles their entire hand into the Deck, then they draw the same number of cards they shuffled.</text>
+      <prop>
+        <Archetype>Clown Clan</Archetype>
+        <manacost>None</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>101305042</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Link Monster</Complete_Card_type>
+        <pt>1000/None</pt>
+        <type>Beast-Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305042.jpg" uuid="7fdb9201-534a-581c-8444-682c88b374cf">YGO</set>
+    </card>
+    <card>
       <name>Clown Clan Flair</name>
       <text>You can Ritual Summon this card with a &quot;Clown Clan&quot; card. You can reveal this card in your hand; add 1 &quot;Clown Clan&quot; card from your Deck to your hand, except a Ritual Monster, then discard 1 card. You can only use this effect of &quot;Clown Clan Flair&quot; once per turn. If this card is Tributed: You can activate 1 of these effects (but you can only use each of these effects of &quot;Clown Clan Flair&quot; once per turn);
  ● Shuffle all Ritual Monsters on the field and in the GYs into the Deck.
@@ -28649,6 +28859,23 @@
         <type>Beast-Warrior</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/42759961.jpg" uuid="22ff5025-19ef-5fc6-9818-5d2750fd8891">YGO</set>
+    </card>
+    <card>
+      <name>Clown Clan Hat</name>
+      <text>[ Pendulum Effect ]  During your Main Phase: You can send 1 &quot;Clown Clan&quot; card from your Deck to your GY, except a Pendulum Monster, and if you do, Special Summon this card, also you cannot activate the effects of monsters Special Summoned from the Deck or Extra Deck until the end of the next turn. You can only use this effect of &quot;Clown Clan Hat&quot; once per turn.  [ Monster Effect ]  Monsters your opponent controls lose 1500 DEF while you control a Tribute Summoned monster. If this card is Tributed: You can activate 1 of these effects (but you can only use each of these effects of &quot;Clown Clan Hat&quot; once per turn);
+ ● Shuffle all Pendulum Monsters on the field and face-up in the Extra Decks into the Deck.
+ ● Special Summon 1 non-Pendulum &quot;Clown Clan&quot; monster from your Deck or Extra Deck, ignoring its Summoning conditions.</text>
+      <prop>
+        <Archetype>Clown Clan</Archetype>
+        <manacost>5</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>100295121</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Pendulum Effect Monster</Complete_Card_type>
+        <pt>1900/800</pt>
+        <type>Beast-Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100295121.jpg" uuid="98ed8c35-65d6-56a9-a908-cedd40989c67">YGO</set>
     </card>
     <card>
       <name>Clown Clan Meteor</name>
@@ -29323,6 +29550,20 @@
         <type>Warrior</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/44800181.jpg" uuid="204a6046-afa9-5df1-b8dc-20ae61be7105">YGO</set>
+    </card>
+    <card>
+      <name>Comic Cat</name>
+      <text>This card is treated as a Toon monster while &quot;Toon World&quot; is on the field. During the Main Phase (Quick Effect): You can Tribute 1 monster (if you control &quot;Toon World&quot;, you can Tribute 1 monster your opponent controls, even though you do not control it), and if you do, Special Summon 1 monster that mentions &quot;Toon World&quot; from your hand or Deck, ignoring its Summoning conditions. You can only use this effect of &quot;Comic Cat&quot; once per turn.</text>
+      <prop>
+        <manacost>1</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>100455002</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Beast</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100455002.jpg" uuid="8076bb36-db8c-5ddb-bb46-3598ddced252">YGO</set>
     </card>
     <card>
       <name>Comic Hand</name>
@@ -31126,6 +31367,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/91782219.jpg" uuid="3f72e32c-5a7f-5c58-a38f-365021c9b417">YGO</set>
     </card>
     <card>
+      <name>Crack Blitzclique</name>
+      <text>When your opponent activates a monster effect on the field during their turn (Quick Effect): You can reveal this card in your hand; destroy that monster, and if you do, Special Summon 1 Thunder monster from your hand, also you cannot Special Summon Effect Monsters for the rest of this turn, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone: You can send 1 &quot;Blitzclique&quot; Spell/Trap from your Deck to the GY. You can only use each effect of &quot;Crack Blitzclique&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>3</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>101305012</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1500/900</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305012.jpg" uuid="ffdd0ac7-9233-5c5e-af74-f152874779da">YGO</set>
+    </card>
+    <card>
       <name>Crackdown</name>
       <text>Activate by targeting 1 face-up monster your opponent controls; take control of that monster. While you control that monster, it cannot attack or activate effects. When that monster leaves the field, destroy this card.</text>
       <prop>
@@ -31478,6 +31734,21 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/63436931.jpg" uuid="2b5400f3-7c4d-536d-b32b-7061b0772c32">YGO</set>
+    </card>
+    <card>
+      <name>Crimson Dragon Quetzacoatl</name>
+      <text>1 Tuner + 1+ non-Tuners
+ Gains ATK equal to the total original ATK of all other Synchro Monsters you control. You can only use each of the following effects of &quot;Crimson Dragon Quetzacoatl&quot; once per turn. If this card is Synchro Summoned: You can Special Summon as many Dragon Synchro Monsters from your GY as possible, also you cannot Special Summon for the rest of this turn. When your opponent activates a monster effect (Quick Effect): You can return 1 other Dragon Synchro Monster you control to the Extra Deck, and if you do, negate that activation.</text>
+      <prop>
+        <manacost>12</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>29053656</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Synchro Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/29053656.jpg" uuid="11ce4920-7339-5c11-87cd-fc890d4838d9">YGO</set>
     </card>
     <card>
       <name>Crimson Fire</name>
@@ -34234,6 +34505,22 @@
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/1546123.jpg" uuid="e53111e2-9779-53df-8a4a-656462606998">YGO</set>
       <set picURL="https://images.ygoprodeck.com/images/cards/1546124.jpg" uuid="04da8361-908c-5f4b-b3a4-7596b2f1e649">YGO</set>
+    </card>
+    <card>
+      <name>Cyber End Dragon the Decisive Strike Dragon</name>
+      <text>3 Machine monsters with 2100 or more ATK
+ Must be Fusion Summoned. If this card is Fusion Summoned using only LIGHT monsters: You can pay 4000 LP; add 1 &quot;Limiter Removal&quot; from your Deck to your hand. You can only use this effect of &quot;Cyber End Dragon the Decisive Strike Dragon&quot; once per turn. If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent. This card whose current ATK is higher than its original ATK can make up to 3 attacks during each Battle Phase.</text>
+      <prop>
+        <Archetype>Cyber</Archetype>
+        <manacost>10</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>30275298</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Fusion Monster</Complete_Card_type>
+        <pt>4000/2800</pt>
+        <type>Machine</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/30275298.jpg" uuid="9d8d5264-4c59-5f38-b462-1ba4bbe7586d">YGO</set>
     </card>
     <card>
       <name>Cyber Energy Shock</name>
@@ -38534,6 +38821,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/300302061.jpg" uuid="bee323b3-3622-5f1d-946c-5e6cf1815192">YGO</set>
     </card>
     <card>
+      <name>Dark Creator</name>
+      <text>You can Special Summon this card (from your hand) by Tributing 2 Fiend and/or Fairy monsters. Cannot be destroyed by battle. Once per turn: You can Special Summon as many &quot;Dark Creator Tokens&quot; (Fiend/DARK/Level 10/ATK 3000/DEF 1000) as possible, but they cannot attack directly or be destroyed by battle, destroy them when this card is destroyed, also you cannot Special Summon for the rest of this turn. If a monster(s) is destroyed by battle: Inflict 700 damage to your opponent.</text>
+      <prop>
+        <Archetype>Fan-Made Cards</Archetype>
+        <manacost>10</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>52768390</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>3000/1000</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/52768390.jpg" uuid="06961ff4-d419-5c5c-b3fd-bcfde2a6c71b">YGO</set>
+    </card>
+    <card>
       <name>Dark Crusader</name>
       <text>You can send 1 DARK monster from your hand to the Graveyard; this card gains 400 ATK.</text>
       <prop>
@@ -39283,6 +39585,7 @@
       <name>Dark Magical Curtain</name>
       <text>Each player can Special Summon 1 DARK Spellcaster monster from their hand or Deck (but neither player can activate their effects this turn), then if you Special Summoned a monster whose original name is &quot;Dark Magician&quot; or &quot;Dark Magician Girl&quot;, you can add 1 Spell/Trap that mentions &quot;Dark Magician&quot; from your Deck to your hand, except &quot;Dark Magical Curtain&quot;. You can only activate 1 &quot;Dark Magical Curtain&quot; per turn.</text>
       <prop>
+        <Archetype>Prophecy</Archetype>
         <manacost>None</manacost>
         <colors>NORMAL</colors>
         <Konami_ID>41350417</Konami_ID>
@@ -39658,6 +39961,23 @@
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/16195942.jpg" uuid="cf1d7a8b-3547-5373-8509-092f550afb7a">YGO</set>
       <set picURL="https://images.ygoprodeck.com/images/cards/16195943.jpg" uuid="3e135307-a314-5d2b-925f-b7b695c28310">YGO</set>
+    </card>
+    <card>
+      <name>Dark Rebellion Xyz Dragon of the Four Heavenly Dragons</name>
+      <text>2 Level 4 DARK monsters
+ (This card is always treated as a &quot;The Phantom Knights&quot; card.)
+ If this card is Special Summoned: You can target an equal number of cards on each field; destroy them. When your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card; Special Summon 1 Rank 4 DARK Xyz Monster from your Extra Deck, using this card you control (this is treated as an Xyz Summon, transfer this card's materials). You can only use each effect of &quot;Dark Rebellion Xyz Dragon of the Four Heavenly Dragons&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantom Knights</Archetype>
+        <manacost>4</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>90091224</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>XYZ Monster</Complete_Card_type>
+        <pt>2500/2000</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/90091224.jpg" uuid="e2dee55a-2afd-5808-ad8c-88054f4599d6">YGO</set>
     </card>
     <card>
       <name>Dark Red Enchanter</name>
@@ -40151,6 +40471,36 @@
         <type>Fiend</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/89494469.jpg" uuid="51f62cd4-a5af-5034-ac23-a0f0676aa9e6">YGO</set>
+    </card>
+    <card>
+      <name>Dark Tuner Catastrogue</name>
+      <text>You can reveal this card in your hand; immediately after this effect resolves, Normal Summon 1 &quot;Dark Tuner&quot; monster. You can only use this effect of &quot;Dark Tuner Catastrogue&quot; once per turn. Once per turn, if you control this Normal Summoned/Set card: You can Tribute both this face-up card and 1 face-up non-Tuner with a lower Level, and if you do, Special Summon 1 Synchro Monster from your Extra Deck with a Level equal to the difference in Levels of those monsters (this is treated as a Synchro Summon), then you can destroy 1 card your opponent controls.</text>
+      <prop>
+        <Archetype>Dark Tuner</Archetype>
+        <manacost>8</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>15141103</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Tuner Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/15141103.jpg" uuid="4ddb38ea-180b-5ede-8541-ba674010070b">YGO</set>
+    </card>
+    <card>
+      <name>Dark Tuner Nightmare Hand</name>
+      <text>You can reveal this card in your hand; immediately after this effect resolves, Normal Summon 1 &quot;Dark Tuner&quot; monster. You can only use this effect of &quot;Dark Tuner Nightmare Hand&quot; once per turn. If this card is Normal Summoned: You can Special Summon 1 Level 2 or lower monster from your hand. Once per turn, if you control this Normal Summoned/Set card: You can Tribute both this face-up card and 1 face-up non-Tuner with a lower Level, and if you do, Special Summon 1 Synchro Monster from your Extra Deck with a Level equal to the difference in Levels of those monsters (this is treated as a Synchro Summon).</text>
+      <prop>
+        <Archetype>Dark Tuner</Archetype>
+        <manacost>10</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>51546708</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Tuner Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/51546708.jpg" uuid="c765198a-4fa0-5715-a3ce-4a4473ab0f0c">YGO</set>
     </card>
     <card>
       <name>Dark Unity</name>
@@ -41226,6 +41576,19 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/32441317.jpg" uuid="67ca8f4c-8c43-53ec-83ac-5b06059a6342">YGO</set>
     </card>
     <card>
+      <name>Deadly Zombie Breath</name>
+      <text>If you control a Zombie monster and &quot;Call of the Haunted&quot;: Target 1 monster your opponent controls; send it to the GY. If you control a Zombie monster: You can banish this card from your GY, then target 1 face-up card you control and 1 face-up card your opponent controls; send them to the GY. You can only use 1 &quot;Deadly Zombie Breath&quot; effect per turn, and only once that turn.</text>
+      <prop>
+        <Archetype>Call of the Haunted</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>75527221</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/75527221.jpg" uuid="d64c392c-34c2-59b3-90b3-c1b36ac231a4">YGO</set>
+    </card>
+    <card>
       <name>Deal of Phantom</name>
       <text>Select 1 face-up monster on the field. Increase the selected monster's ATK by 100 points for each monster in your Graveyard during the turn this card is activated. The number of monsters is applied when this card is activated.</text>
       <prop>
@@ -41637,6 +42000,22 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/22804410.jpg" uuid="a20cb513-772c-5a8b-9c5d-ebe2dbc58c36">YGO</set>
+    </card>
+    <card>
+      <name>Deep-Eyes White Dragon, the Blue Abyss</name>
+      <text>(This card is always treated as a &quot;Blue-Eyes&quot; card.)
+ You can discard this card; add 1 Level 1 LIGHT Tuner from your Deck to your hand. If a &quot;Blue-Eyes&quot; Ritual Monster(s) and/or &quot;Blue-Eyes White Dragon&quot; is sent to your GY (except during the Damage Step): You can target 1 of them; Special Summon this card from your GY (if it was there when the monster was sent) or hand (even if not), and if you do, its ATK becomes that monster's, also banish it when it leaves the field. You can only use each effect of &quot;Deep-Eyes White Dragon, the Blue Abyss&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blue-Eyes</Archetype>
+        <manacost>10</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>67886895</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/67886895.jpg" uuid="63a20b70-61bb-5841-800c-0e161a867a8e">YGO</set>
     </card>
     <card>
       <name>Deep-Space Cruiser IX</name>
@@ -42116,6 +42495,21 @@
         <type>Fiend</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/59913418.jpg" uuid="a676a59e-928c-5904-be90-46248c1bd111">YGO</set>
+    </card>
+    <card>
+      <name>Demiurge Ema</name>
+      <text>You can send 4 monsters with 2400 or more ATK and 1000 DEF from your hand, Deck, and/or face-up field to the GY; Special Summon this card from your hand. You can target 1 Spell/Trap on each field; destroy them, then Special Summon 1 &quot;Homunculus Token&quot; (Fairy/LIGHT/Level 2/ATK 800/DEF 800) to both players' fields in Defense Position, and if you do, this card gains 1600 ATK. You can only use each effect of &quot;Demiurge Ema&quot; once per turn.</text>
+      <prop>
+        <Archetype>Fan-Made Cards</Archetype>
+        <manacost>8</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>26364381</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>3300/2000</pt>
+        <type>Fairy</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/26364381.jpg" uuid="fbdc7b59-fa48-5e48-a447-847643fc47b1">YGO</set>
     </card>
     <card>
       <name>Demotion</name>
@@ -43371,6 +43765,19 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/18739764.jpg" uuid="bfde47c4-1c9f-5996-b4aa-fdfed74ae226">YGO</set>
+    </card>
+    <card>
+      <name>Destruction Chant of the Sacred Beast</name>
+      <text>Special Summon 1 &quot;Sacred Beast&quot; monster from your hand or GY in Defense Position, then if you control 2 or more &quot;Sacred Beast&quot; monsters whose original Levels are 10, you can negate the effects of 1 face-up card your opponent controls, and if you do, destroy it. You can banish this card from your GY; Fusion Summon 1 &quot;Phantasm&quot; Fusion Monster from your Extra Deck, using monsters from your hand or field. You can only use each effect of &quot;Destruction Chant of the Sacred Beast&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305066</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305066.jpg" uuid="438eca3e-e2d2-5544-829a-2f5b4ed1afed">YGO</set>
     </card>
     <card>
       <name>Destruction Cyclone</name>
@@ -45897,6 +46304,19 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/77561728.jpg" uuid="da119614-41cd-5025-b08a-2073f223c383">YGO</set>
+    </card>
+    <card>
+      <name>Divine Abyss of the Sacred Beast</name>
+      <text>You can send 3 face-up &quot;Divine Abyss of the Sacred Beast&quot; you control to the GY, including this card, then target 1 face-up monster your opponent controls; change it to face-down Defense Position. You can only use each of the following effects of &quot;Divine Abyss of the Sacred Beast&quot; once per turn. During the Main Phase: You can place 2 &quot;Divine Abyss of the Sacred Beast&quot; from your hand, Deck, and/or GY face-up on your field. During your opponent's End Phase, if this card is in your GY: You can place it on the bottom of the Deck.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305067</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305067.jpg" uuid="7fc04f43-665d-5baa-ba42-08b1c4048425">YGO</set>
     </card>
     <card>
       <name>Divine Arsenal AA-ZEUS - Sky Thunder</name>
@@ -55886,6 +56306,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/43580269.jpg" uuid="7e2e4d8c-3659-5908-8f47-890fe1db5b9b">YGO</set>
     </card>
     <card>
+      <name>Emi Blitzclique</name>
+      <text>If this card is added to your hand, except by drawing it: You can reveal it, then target 1 card on the field; destroy it, and if you do, Special Summon 1 Thunder monster from your hand, also you cannot Special Summon Effect Monsters for the rest of this turn, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone: You can add 1 &quot;Blitzclique&quot; Trap from your Deck to your hand. You can only use each effect of &quot;Emi Blitzclique&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>1</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>101305014</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>900/300</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305014.jpg" uuid="58d30441-f635-51ba-94c4-7a3bcae3eb51">YGO</set>
+    </card>
+    <card>
       <name>Emilia, Dance Priestess of the Nekroz</name>
       <text>If you Ritual Summon exactly 1 &quot;Nekroz&quot; Ritual Monster with a card effect that requires use of monsters, this card you control can be used as the entire Tribute. You can only use each of the following effects of &quot;Emilia, Dance Priestess of the Nekroz&quot; once per turn. If you have a Warrior &quot;Nekroz&quot; monster in your field or GY: You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 &quot;Nekroz&quot; Ritual Monster or 1 &quot;Nekroz&quot; Spell from your Deck to your hand.</text>
       <prop>
@@ -57485,6 +57920,20 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/15684835.jpg" uuid="177e134c-8ffb-5d56-baaa-974eb80f80f6">YGO</set>
+    </card>
+    <card>
+      <name>Evil Box</name>
+      <text>If you control &quot;Toon World&quot;: You can Special Summon this card from your hand, then you can add to your hand or Set 1 &quot;Toon&quot; Trap from your Deck. You can only use this effect of &quot;Evil Box&quot; once per turn. This card is treated as a Toon monster while &quot;Toon World&quot; is on the field. Once per turn (Quick Effect): You can target 1 card in either GY; place it on the bottom of the Deck.</text>
+      <prop>
+        <manacost>6</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>100455003</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>2300/2000</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100455003.jpg" uuid="827fe97e-6374-571c-afb5-59371b465ae7">YGO</set>
     </card>
     <card>
       <name>Evil Dragon Ananta</name>
@@ -61080,6 +61529,19 @@
         <type>Field</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/13301895.jpg" uuid="a36a61a7-c73e-5559-90ee-78fed6c35cea">YGO</set>
+    </card>
+    <card>
+      <name>Fallen Paradise of the Sacred Beasts</name>
+      <text>Thrice per turn: You can send 3 other cards of the same type (Monster, Spell, or Trap) from your hand and/or face-up field to the GY, then you can Special Summon 1 &quot;Sacred Beast&quot; monster from your hand, Deck, GY, or banishment, and if you do, it is unaffected by your opponent's activated Spell/Trap effects. If you control a &quot;Sacred Beast&quot; monster whose original Level is 10: You can draw 2 cards. You can only use this effect of &quot;Fallen Paradise of the Sacred Beasts&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305048</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Field</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305048.jpg" uuid="824002a7-8e7d-5956-a8f6-f1cc468088ae">YGO</set>
     </card>
     <card>
       <name>Fallen Sanctuary</name>
@@ -66577,22 +67039,6 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/43785278.jpg" uuid="357908bc-f90d-5121-b131-1cfbfcf1a234">YGO</set>
     </card>
     <card>
-      <name>Four Charmers in Profusion</name>
-      <text>2+ monsters
- Gains 300 ATK for each different Attribute on the field. Once while face-up on the field, during the Main Phase (Quick Effect): You can target 2 monsters with the same Attribute but different Types, or 2 monsters with the same Type but different Attributes, in your GY; Special Summon both, but this card, also those monsters, cannot be used as material for a Fusion, Synchro, Xyz, or Link Summon until the end of the next turn. You can only use this effect of &quot;Four Charmers in Profusion&quot; once per turn.</text>
-      <prop>
-        <Archetype>Charmer</Archetype>
-        <manacost>None</manacost>
-        <colors>LIGHT</colors>
-        <Konami_ID>27519978</Konami_ID>
-        <maintype>Monster</maintype>
-        <Complete_Card_type>Link Monster</Complete_Card_type>
-        <pt>1850/None</pt>
-        <type>Spellcaster</type>
-      </prop>
-      <set picURL="https://images.ygoprodeck.com/images/cards/27519978.jpg" uuid="917e9d2f-93a2-508f-a42f-ea1416642fdf">YGO</set>
-    </card>
-    <card>
       <name>Fox Fire</name>
       <text>During the End Phase, if this card was destroyed by battle and sent to the Graveyard this turn and was face-up at the start of the Damage Step: Special Summon this card from the Graveyard. This face-up card cannot be Tributed for a Tribute Summon.</text>
       <prop>
@@ -67163,6 +67609,20 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/99940363.jpg" uuid="4d2a4b57-2f4b-523b-9c47-524fc62fdad0">YGO</set>
     </card>
     <card>
+      <name>Frost Tiger</name>
+      <text>If this card is Normal or Special Summoned: You can add 1 Level 5 or higher WATER Spellcaster monster or 1 &quot;Twin Pillars of Ice&quot; from your Deck to your hand. You can only use this effect of &quot;Frost Tiger&quot; once per turn.</text>
+      <prop>
+        <manacost>4</manacost>
+        <colors>WATER</colors>
+        <Konami_ID>51083544</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1900/1200</pt>
+        <type>Aqua</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/51083544.jpg" uuid="6e340c6a-c0d7-5117-ae64-067c8af8ba81">YGO</set>
+    </card>
+    <card>
       <name>Frostosaurus</name>
       <text>This monster's metabolism enables it to endure long periods of cold, harnessing the power to become a creature of solid ice! Nothing else can withstand such temperatures, especially victims of its glacial rampage.</text>
       <prop>
@@ -67404,6 +67864,22 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/45178472.jpg" uuid="062c42e8-2c6b-55a4-8f70-586461ce483c">YGO</set>
     </card>
     <card>
+      <name>Full Moon Mirror</name>
+      <text>Each time a monster(s) is destroyed by battle or effect, place 1 Full Moon Counter on this card for each. You can remove Full Moon Counters from this card, then activate 1 of these effects;
+ ● 1: Special Summon 1 Level 6 or lower monster (Fiend or Fairy) from your hand or GY.
+ ● 3: Add 1 Level 10 DARK monster from your Deck to your hand.
+ ● 5: Special Summon 1 Level 10 monster from your hand or GY.
+ You can only use this effect of &quot;Full Moon Mirror&quot; once per turn.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>44857722</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/44857722.jpg" uuid="ef2ded54-d5c8-5662-a760-fcf8c4ea9aff">YGO</set>
+    </card>
+    <card>
       <name>Full Salvo</name>
       <text>When this card resolves, send your entire hand to the Graveyard. Inflict 200 damage to your opponent for each card you sent to the Graveyard by this effect.</text>
       <prop>
@@ -67499,6 +67975,20 @@
         <type>Fiend</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/53830602.jpg" uuid="73756401-1370-5f93-9c06-c7189cbfc978">YGO</set>
+    </card>
+    <card>
+      <name>Funny Dark Rabbit</name>
+      <text>After this card is Normal or Special Summoned, you can Normal Summon 1 monster that mentions &quot;Toon World&quot; during your Main Phase this turn, in addition to your Normal Summon/Set (you can only gain this effect once per turn). This card is treated as a Toon monster while &quot;Toon World&quot; is on the field. Once per turn: You can add to your hand or place face-up on your field, 1 &quot;Toon&quot; Field or Continuous Spell from your Deck.</text>
+      <prop>
+        <manacost>4</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>100455001</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1100/1500</pt>
+        <type>Beast</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100455001.jpg" uuid="881488e8-af7e-5afe-900a-db8ebd20f16c">YGO</set>
     </card>
     <card>
       <name>Furtive Techniques Fur Hire, Fur All Your Ultimate Moves</name>
@@ -67932,6 +68422,19 @@
         <type>Continuous</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/77565204.jpg" uuid="51841d25-d1a1-5524-ac39-a43ba3c15def">YGO</set>
+    </card>
+    <card>
+      <name>Future Fusion Nova</name>
+      <text>When this card is activated: Fusion Summon 1 LIGHT Machine Fusion Monster from your Extra Deck, using monsters from your Deck, including &quot;Cyber Dragon&quot;, also for the rest of this turn after this card resolves, you cannot Special Summon, except Machine monsters, also you cannot declare attacks, except with the Summoned monster. When this card leaves the field, destroy that monster. When that monster is destroyed, destroy this card. You can only activate 1 &quot;Future Fusion Nova&quot; per turn.</text>
+      <prop>
+        <Archetype>Polymerization</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>92058902</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/92058902.jpg" uuid="246f5d63-dead-56ef-9df7-07a260bf688c">YGO</set>
     </card>
     <card>
       <name>Future Glow</name>
@@ -69128,6 +69631,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/5133471.jpg" uuid="ee80017f-2209-5565-9043-7ed81b7a4669">YGO</set>
     </card>
     <card>
+      <name>Galaxy Defense Robot Orbital 7</name>
+      <text>You can Tribute this card from your hand or field; take 1 &quot;Photon&quot; monster and 1 &quot;Galaxy&quot; monster from your Deck, add 1 of them to your hand, and send the other to the GY, also you cannot Special Summon for the rest of this turn, except LIGHT monsters. If a &quot;Galaxy-Eyes&quot; monster(s) is Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your GY, but banish it when it leaves the field. You can only use each effect of &quot;Galaxy Defense Robot Orbital 7&quot; once per turn.</text>
+      <prop>
+        <Archetype>Galaxy</Archetype>
+        <manacost>8</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>91714772</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>2000/2000</pt>
+        <type>Machine</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/91714772.jpg" uuid="93970202-481c-56c6-8607-3fadf3c14a27">YGO</set>
+    </card>
+    <card>
       <name>Galaxy Dragon</name>
       <text>This card cannot attack directly, and can only attack Dragon-Type monsters. If this card battles a Dragon-Type monster, this card gains 1000 ATK during the Damage Step only, also that monster has its effects negated during this Battle Phase, as long as this card remains face-up on the field.</text>
       <prop>
@@ -69527,6 +70045,21 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/39030163.jpg" uuid="62fcf06a-a8c6-5782-92fa-dead7471c725">YGO</set>
+    </card>
+    <card>
+      <name>Galaxy-Eyes Photon Change Dragon</name>
+      <text>You can Special Summon this card (from your hand) by Tributing 2 face-up monsters on either field with 2000 or more ATK, including a monster you control. You can only Special Summon &quot;Galaxy-Eyes Photon Change Dragon&quot; once per turn this way. During the Main Phase (Quick Effect): You can banish this card you control; Special Summon 1 &quot;Galaxy-Eyes Photon Dragon&quot; from your Deck or GY, then you can banish 1 monster your opponent controls that was Special Summoned from the Extra Deck until the End Phase. You can only use this effect of &quot;Galaxy-Eyes Photon Change Dragon&quot; once per turn.</text>
+      <prop>
+        <Archetype>Change</Archetype>
+        <manacost>8</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>54725177</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>3000/2500</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/54725177.jpg" uuid="f06b9cbe-0236-58b7-9809-c724246b1b66">YGO</set>
     </card>
     <card>
       <name>Galaxy-Eyes Photon Dragon</name>
@@ -70341,6 +70874,20 @@
         <type>Machine</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/87751584.jpg" uuid="4e433849-4e56-51ab-b14f-d4f32ff7930b">YGO</set>
+    </card>
+    <card>
+      <name>Gatling Ogre</name>
+      <text>You can send any number of face-down cards from your Spell &amp; Trap Zone to the GY; inflict 800 damage to your opponent for each, also your opponent takes no damage from non-Fiend monsters' effects for the rest of this turn. You can only use this effect of &quot;Gatling Ogre&quot; thrice per turn. Once per turn, when this card is targeted for an attack: You can inflict 500 damage to your opponent for each Attack Position monster they control, then end the Battle Phase.</text>
+      <prop>
+        <manacost>3</manacost>
+        <colors>FIRE</colors>
+        <Konami_ID>88931417</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>800/800</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/88931417.jpg" uuid="c1050cca-e72b-5950-949f-8bdc4b8a7587">YGO</set>
     </card>
     <card>
       <name>Gauntlet Launcher</name>
@@ -75611,6 +76158,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/899287.jpg" uuid="ab9e3295-0f00-51ad-9c04-c3026dc85d5e">YGO</set>
     </card>
     <card>
+      <name>Glitch Clutch Nullgainer</name>
+      <text>1 Tuner + 1+ non-Tuners
+ If this card is Synchro Summoned: You can add 1 Level 8 or higher monster with 0 ATK from your Deck to your hand. You can target 1 monster with 0 ATK in your GY; Special Summon it, but negate its effects, also it cannot be used as material for a Fusion, Synchro, Xyz, or Link Summon. You can only use each effect of &quot;Glitch Clutch Nullgainer&quot; once per turn.</text>
+      <prop>
+        <manacost>8</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305036</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Synchro Monster</Complete_Card_type>
+        <pt>0/2000</pt>
+        <type>Psychic</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305036.jpg" uuid="c5181591-cf19-5d6e-bfc2-236ba1d8d21b">YGO</set>
+    </card>
+    <card>
       <name>Glorious Illusion</name>
       <text>Activate this card by targeting 1 &quot;Lightsworn&quot; monster in your Graveyard; Special Summon that target in face-up Attack Position. During each of your End Phases: Send the top 2 cards of your Deck to the Graveyard. When this card leaves the field, destroy that monster. When that monster leaves the field, destroy this card.</text>
       <prop>
@@ -78152,6 +78714,21 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/21785144.jpg" uuid="f52836ec-8c18-5e32-83f4-fabd0e7ee8b8">YGO</set>
+    </card>
+    <card>
+      <name>Grain Blitzclique</name>
+      <text>You can reveal this card in your hand, then target 1 Spell/Trap on the field; destroy it, and if you do, Special Summon 1 Thunder monster from your hand, also you cannot Special Summon Effect Monsters for the rest of this turn, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone: You can add 1 &quot;Blitzclique&quot; Spell or &quot;Kowloon, Citadel of the Sky&quot; from your Deck to your hand. You can only use each effect of &quot;Grain Blitzclique&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>2</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>101305013</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1200/600</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305013.jpg" uuid="92b0c5f5-e341-5a36-9bb8-87d91d0619a1">YGO</set>
     </card>
     <card>
       <name>Granadora</name>
@@ -80739,6 +81316,20 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/79724755.jpg" uuid="089570a3-ffe3-54fe-9d6a-189789196077">YGO</set>
     </card>
     <card>
+      <name>Guivre</name>
+      <text>Gains 400 ATK for each Dragon monster you control. When this card destroys a monster by battle: You can Special Summon 1 &quot;Wyvern Token&quot; (Dragon/LIGHT/Level 1/ATK 400/DEF 400). During the Battle Phase or Main Phase 2, you can (Quick Effect): Immediately after this effect resolves, Tribute Summon 1 Dragon monster face-up. You can only use this effect of &quot;Guivre&quot; once per turn.</text>
+      <prop>
+        <manacost>4</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>18905769</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1300/400</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/18905769.jpg" uuid="c551b46b-98ed-555e-a55e-629ed709e5a0">YGO</set>
+    </card>
+    <card>
       <name>Guldfaxe of the Nordic Beasts</name>
       <text>If your opponent controls a Synchro Monster and you control no monsters, you can Special Summon this card (from your hand).</text>
       <prop>
@@ -81562,6 +82153,21 @@
         <type>Thunder</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/32491822.jpg" uuid="f9a2d835-d20d-519c-ac58-964b4e801dd7">YGO</set>
+    </card>
+    <card>
+      <name>Hamon, Lord of Striking Thunder - Sacred Beast of Sinful Catastrophe</name>
+      <text>Cannot be Normal Summoned/Set. Must be Special Summoned with a &quot;Sacred Beast&quot; card. You can reveal this card in your hand; add 1 &quot;Sacred Beast&quot; Spell from your Deck to your hand, then discard 1 card. You can only use this effect of &quot;Hamon, Lord of Striking Thunder - Sacred Beast of Sinful Catastrophe&quot; once per turn. Once per turn, if a monster(s) is sent to your opponent's GY: Inflict 1000 damage to your opponent. If this card is destroyed by battle or card effect: You can activate this effect; you take no damage this turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>10</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>101305006</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>4000/4000</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305006.jpg" uuid="41cc9c20-7580-533d-a1e4-69e49875fac0">YGO</set>
     </card>
     <card>
       <name>Han-Shi Kyudo Spirit</name>
@@ -86578,6 +87184,20 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/10532969.jpg" uuid="2a1c863d-8700-5233-b1e3-45fba9906130">YGO</set>
     </card>
     <card>
+      <name>Hyper-Rank-Up-Magic Ultimate Force</name>
+      <text>Target 1 Rank 9 or lower &quot;Utopia&quot; or &quot;Utopic&quot; Xyz Monster you control whose original Attribute is LIGHT; Special Summon 1 Rank 10 or higher &quot;Number&quot; Xyz Monster from your Extra Deck, by using that Xyz Monster you control (this is treated as an Xyz Summon, transfer its materials), and if you do, attach this card to it. A &quot;Number 99&quot; Xyz Monster that has this card as material gains this effect.
+ ● Once per Chain, when your opponent activates a monster effect during the Battle Phase (Quick Effect): Detach all materials from this card, and if you do, destroy all monsters your opponent controls.</text>
+      <prop>
+        <Archetype>Rank-Up-Magic</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>87818869</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/87818869.jpg" uuid="eb2e3d67-85b7-5c39-9331-3feae242996b">YGO</set>
+    </card>
+    <card>
       <name>Hypernova Burst</name>
       <text>Banish, face-down, from your hand and/or face-up field, 2 monsters that cannot be Normal Summoned; draw 2 cards. You can only activate 1 &quot;Hypernova Burst&quot; per turn.</text>
       <prop>
@@ -88565,6 +89185,24 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/72896720.jpg" uuid="efca7eef-3ce1-511d-8df6-317ad77fe16b">YGO</set>
+    </card>
+    <card>
+      <name>Infernity Doom Slinger</name>
+      <text>During your Main Phase: You can Special Summon 1 Fiend monster from your hand. If you have no cards in your hand (Quick Effect): You can banish this card from your GY; your opponent chooses 1 of these effects for you to apply.
+ ● Reveal the top card of your Deck, and if it is a monster, your opponent takes any effect damage you would have taken this turn instead. Otherwise, you take 4000 damage.
+ ● You take no effect damage this turn.
+ You can only use each effect of &quot;Infernity Doom Slinger&quot; once per turn.</text>
+      <prop>
+        <Archetype>Infernity</Archetype>
+        <manacost>1</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>14425515</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>100/100</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/14425515.jpg" uuid="12a1edaa-456b-591c-b3c4-4df88a0894f6">YGO</set>
     </card>
     <card>
       <name>Infernity Dwarf</name>
@@ -96230,6 +96868,18 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/67724379.jpg" uuid="5822d8ad-bdac-5649-a355-bba91f422995">YGO</set>
     </card>
     <card>
+      <name>Kowloon, Citadel of the Sky</name>
+      <text>Monsters you control that were Normal or Special Summoned from the hand gain 500 ATK/DEF. You can only use each of the following effects of &quot;Kowloon, Citadel of the Sky&quot; once per turn. During your Main Phase: You can Special Summon 1 &quot;Mechbeast Token&quot; (Machine/EARTH/Level 6/ATK 2000/DEF 2000) to your opponent's field, and if you do, add 1 &quot;Blitzclique&quot; monster from your Deck to your hand. If a card(s) is destroyed by your &quot;Blitzclique&quot; card's effect, while this card is in your GY: You can add this card to your hand.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305050</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Field</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305050.jpg" uuid="b30bedc5-fc8d-515d-85e8-2c4bc0bb6a48">YGO</set>
+    </card>
+    <card>
       <name>Kozaky</name>
       <text>A workaholic fiend who devotes everything to his research into the languages of Dark World. His mind has collapsed because of working too hard.</text>
       <prop>
@@ -100363,6 +101013,18 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/27671321.jpg" uuid="b54bfa5b-2853-5776-9e6d-9a2d17198675">YGO</set>
     </card>
     <card>
+      <name>Lightning Crash</name>
+      <text>Add 1 Thunder monster from your Deck to your hand, but you cannot Normal Summon/Set monsters with its name until the end of the next turn after this card resolves. You can only activate 1 &quot;Lightning Crash&quot; per turn.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>89753095</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/89753095.jpg" uuid="60145ff3-1aaf-500a-92f5-e5ef5c36e888">YGO</set>
+    </card>
+    <card>
       <name>Lightning Punisher</name>
       <text>After a Chain with 3 or more Links resolves, destroy 1 card on your opponent's side of the field. This effect cannot activate if multiple cards/effects with the same name were activated in that Chain.</text>
       <prop>
@@ -101697,6 +102359,21 @@
         <type>Plant</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/48686504.jpg" uuid="1bc4d02f-72ec-5f27-816c-23639c98c732">YGO</set>
+    </card>
+    <card>
+      <name>Long-Tailed Black Horse</name>
+      <text>If this card is Normal or Special Summoned: You can reveal 1 Zombie monster in your hand and send 1 EARTH Zombie monster from your Deck to the GY; send the revealed monster to the GY, and if you do, this card gains 500 ATK until the end of this turn. You can only use this effect of &quot;Long-Tailed Black Horse&quot; once per turn.</text>
+      <prop>
+        <Archetype>Yokai</Archetype>
+        <manacost>4</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>92447211</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1400/800</pt>
+        <type>Zombie</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/92447211.jpg" uuid="26a7c25c-bbe4-570b-b9fe-a1c856c62e83">YGO</set>
     </card>
     <card>
       <name>Longirsu, the Orcust Orchestrator</name>
@@ -108452,6 +109129,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/81846453.jpg" uuid="bf74cee9-447a-509b-a65f-63bb0d84cde1">YGO</set>
     </card>
     <card>
+      <name>Martyr of the Sacred Beasts</name>
+      <text>If this card is Normal or Special Summoned: You can place 1 &quot;Sacred Beast&quot; Field Spell or &quot;Sacred Beast&quot; Continuous Spell/Trap from your Deck face-up on your field. If you control another &quot;Sacred Beast&quot; monster: You can Special Summon 2 &quot;Martyr of the Sacred Beasts&quot; from your hand, Deck, and/or GY. During your opponent's End Phase, if this card and a Level 10 &quot;Sacred Beast&quot; monster are in your GY: You can add this card to your hand. You can only use each effect of &quot;Martyr of the Sacred Beasts&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>1</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305009</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305009.jpg" uuid="7f6d97e9-45b5-5879-870b-a50f83faf95b">YGO</set>
+    </card>
+    <card>
       <name>Maryokutai</name>
       <text>During your opponent's turn, when your opponent activates a Spell Card (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy it.</text>
       <prop>
@@ -108790,7 +109482,7 @@
     </card>
     <card>
       <name>Masked HERO Fountain</name>
-      <text>You can reveal this card in your hand; Special Summon 1 &quot;HERO&quot; monster from your hand in Defense Position. If this card is sent to the GY to activate a card effect, or by card effect: You can Set 1 &quot;Mask Change&quot; from your Deck or GY. You can only use each effect of &quot;Masked HERO Fountain&quot; once per turn.</text>
+      <text>You can reveal this card in your hand; Special Summon 1 &quot;HERO&quot; monster from your hand in Defense Position. If this card is sent to the GY by card effect, or to activate a card effect: You can Set 1 &quot;Mask Change&quot; from your Deck or GY. You can only use each effect of &quot;Masked HERO Fountain&quot; once per turn.</text>
       <prop>
         <Archetype>Masked HERO</Archetype>
         <manacost>4</manacost>
@@ -113483,6 +114175,20 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/53981499.jpg" uuid="649457e9-2784-5033-ad33-120cfd432430">YGO</set>
     </card>
     <card>
+      <name>Migratory Zereort</name>
+      <text>If a WATER Xyz Monster is on the field: You can Special Summon this card from your hand. During your Main Phase: You can detach 1 Xyz Material from a monster you control, then you can Special Summon 1 Level 3 or 4 WATER monster from your hand or GY, but its effects are negated, also if it is used for the Xyz Summon of a WATER monster this turn, it can be treated as a Level 5 monster. You can only use each effect of &quot;Zereort Migrator&quot; once per turn.</text>
+      <prop>
+        <manacost>5</manacost>
+        <colors>WATER</colors>
+        <Konami_ID>87640391</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1000/2200</pt>
+        <type>Winged Beast</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/87640391.jpg" uuid="73910069-6f16-52c5-83d4-2892f1a6665d">YGO</set>
+    </card>
+    <card>
       <name>Mikanko Dance - Mayowashidori</name>
       <text>The equipped monster cannot be destroyed by card effects. You can only use each of the following effects of &quot;Mikanko Dance - Mayowashidori&quot; once per turn. At the end of the Damage Step, if your &quot;Mikanko&quot; monster battled: You can target 1 card on the field; return it to the hand. If this card is in your GY: You can target 1 &quot;Mikanko&quot; monster in your GY; Special Summon it, and if you do, equip it with this card, but banish it when it leaves the field.</text>
       <prop>
@@ -114663,7 +115369,7 @@
     <card>
       <name>Miracle Ejector</name>
       <text>(This card is always treated as an &quot;Elemental HERO&quot; card.)
- You can send 1 &quot;Neo-Spacian&quot; monster from your Deck to the GY; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 Spell/Trap that mentions an &quot;Elemental HERO&quot; monster's card name from your Deck to your hand. If this card is sent to the GY: You can target 1 card in your opponent's GY; banish it. You can only use each effect of &quot;Miracle Ejector&quot; once per turn.</text>
+ If this card is in your hand: You can send 1 &quot;Neo-Spacian&quot; monster from your Deck to the GY; Special Summon this card. If this card is Normal or Special Summoned: You can add 1 Spell/Trap that mentions an &quot;Elemental HERO&quot; monster's card name from your Deck to your hand. If this card is sent to the GY: You can target 1 card in your opponent's GY; banish it. You can only use each effect of &quot;Miracle Ejector&quot; once per turn.</text>
       <prop>
         <Archetype>HERO</Archetype>
         <manacost>3</manacost>
@@ -120759,6 +121465,22 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/39272762.jpg" uuid="a90b50a1-5ab6-5eab-b168-b61b0c8fb107">YGO</set>
+    </card>
+    <card>
+      <name>Neo Galaxy-Eyes Photon Dragon - Photon Howling</name>
+      <text>3 Level 8 monsters
+ Once per turn, you can also Xyz Summon &quot;Neo Galaxy-Eyes Photon Dragon - Photon Howling&quot; by using 1 Rank 8 Xyz Monster you control (transfer its materials). If this card is Xyz Summoned: You can take 1 &quot;Photon&quot; monster from your Deck, and either Special Summon it in Defense Position or attach it to this card as material. (Quick Effect): You can detach 3 materials from this card; Tribute 1 other Xyz Monster, and if you do, negate the effects of all other face-up cards currently on the field until the end of this turn.</text>
+      <prop>
+        <Archetype>Galaxy</Archetype>
+        <manacost>8</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>28331069</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>XYZ Monster</Complete_Card_type>
+        <pt>4500/3000</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/28331069.jpg" uuid="97cc94db-dabe-5c05-960b-763224cdbe4e">YGO</set>
     </card>
     <card>
       <name>Neo Kaiser Glider</name>
@@ -130541,6 +131263,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/48579379.jpg" uuid="1cb15306-3e93-5e86-b711-cc6c4418f4f7">YGO</set>
     </card>
     <card>
+      <name>Perfectron Hydradrive Dragon</name>
+      <text>1+ Link Monsters
+ If this card is Link Summoned, or at the end of the Damage Step if this card battled: Destroy as many monsters your opponent controls as possible, then inflict 300 damage to your opponent for each Link Monster in your GY. While face-up on the field, this card is also LIGHT, WATER, FIRE, and WIND-Attribute. Unaffected by the activated effects of monsters that share an Attribute with this card. If this card with 1000 or more ATK would be destroyed by battle or card effect, you can make its ATK become reduced by 1000 instead.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>13203964</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Link Monster</Complete_Card_type>
+        <pt>5000/None</pt>
+        <type>Cyberse</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/13203964.jpg" uuid="077638f1-13ef-5aff-ac89-502df5a57359">YGO</set>
+    </card>
+    <card>
       <name>Perform Puppet</name>
       <text>You can banish 1 &quot;Gimmick Puppet&quot; monster from your GY; all monsters you currently control become that banished monster's Level, until the end of this turn (even if this card leaves the field). If a face-up &quot;Gimmick Puppet&quot; monster(s) you control is destroyed by battle or an opponent's card effect and sent to the GY: You can target 1 of your banished &quot;Gimmick Puppet&quot; monsters; Special Summon it. You can only use each effect of &quot;Perform Puppet&quot; once per turn.</text>
       <prop>
@@ -132689,6 +133426,22 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/93224848.jpg" uuid="28ced9d6-48c8-538d-8ce3-9d9e0e9e71fe">YGO</set>
+    </card>
+    <card>
+      <name>Phantasmal Sacred Beasts of Chaos</name>
+      <text>3 Level 10 monsters that cannot be Normal Summoned/Set
+ Must be either Fusion Summoned, or Special Summoned (from your Extra Deck) by sending the above cards you control to the GY. You can only Special Summon &quot;Phantasmal Sacred Beasts of Chaos&quot; once per turn this way, no matter which method you use. The first two times this card would be destroyed by card effect each turn, it is not destroyed. Once per Chain and thrice per turn (Quick Effect): You can target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then you can gain LP equal to half its ATK.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>10</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305029</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Fusion Monster</Complete_Card_type>
+        <pt>5000/5000</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305029.jpg" uuid="596d9056-11b6-599d-8393-09eeaed14af7">YGO</set>
     </card>
     <card>
       <name>Phantasmal Summoning Beast</name>
@@ -142374,6 +143127,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/69890967.jpg" uuid="c3d0baaa-9568-573a-91f6-bfa5337b785f">YGO</set>
     </card>
     <card>
+      <name>Raviel, Lord of Phantasms - Sacred Beast of Endless Eternity</name>
+      <text>Cannot be Normal Summoned/Set. Must be Special Summoned with a &quot;Sacred Beast&quot; card. You can reveal this card in your hand; add 1 &quot;Sacred Beast&quot; monster from your Deck to your hand, except &quot;Raviel, Lord of Phantasms - Sacred Beast of Endless Eternity&quot;, then discard 1 card. You can only use this effect of &quot;Raviel, Lord of Phantasms - Sacred Beast of Endless Eternity&quot; once per turn. Once per turn (Quick Effect): You can Tribute 2 other &quot;Sacred Beast&quot; monsters; destroy as many monsters your opponent controls as possible, and if you do, this card gains 1000 ATK for each card destroyed by this effect.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>10</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305007</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>4000/4000</pt>
+        <type>Fiend</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305007.jpg" uuid="75746da0-7245-5925-809d-25ca038de4f4">YGO</set>
+    </card>
+    <card>
       <name>Raviel, Lord of Phantasms - Shimmering Scraper</name>
       <text>Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing 3 monsters. You can only use each of the following effects of &quot;Raviel, Lord of Phantasms - Shimmering Scraper&quot; once per turn.
  ● (Quick Effect): You can discard this card and target 1 &quot;Raviel, Lord of Phantasms&quot; you control; for the rest of this turn, its ATK becomes double its current ATK, also it can attack all monsters your opponent controls once each.
@@ -142415,6 +143183,20 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/82529174.jpg" uuid="723d3839-aadf-505f-9de5-e43047b32763">YGO</set>
+    </card>
+    <card>
+      <name>Rayrage, the Twilight Fiend</name>
+      <text>[ Pendulum Effect ]  If a Pendulum Monster(s) you control would be destroyed by an opponent's card effect, you can destroy this card instead of 1 of those Pendulum Monsters. You can only use this effect of &quot;Rayrage, the Twilight Fiend&quot; once per turn.  [ Monster Effect ]  If this card is in your hand: You can target 1 Pendulum Monster you control; place that Pendulum Monster in your Pendulum Zone (but it cannot activate its Pendulum Effects this turn), and if you do, Special Summon this card. (Quick Effect): You can Tribute this card, then target 1 card in your Pendulum Zone; it cannot be destroyed by your opponent's card effects this turn. You can only use each effect of &quot;Rayrage, the Twilight Fiend&quot; once per turn.</text>
+      <prop>
+        <manacost>3</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>101305025</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Pendulum Effect Monster</Complete_Card_type>
+        <pt>1000/1500</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305025.jpg" uuid="a6e34d0e-d68c-5710-85c3-63b3384008f8">YGO</set>
     </card>
     <card>
       <name>Razor Lizard</name>
@@ -143119,6 +143901,19 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/70902743.jpg" uuid="66298cb0-f231-54ba-8ccb-239ee4e2f097">YGO</set>
     </card>
     <card>
+      <name>Red Dragon Archfiend's Chain</name>
+      <text>You can activate this card the turn it was Set, by revealing 1 &quot;Red Dragon Archfiend&quot; in your Extra Deck. Activate this card by revealing any number of monsters in your hand, then target Effect Monsters your opponent controls equal to the number of Tuners revealed +1; they lose 100 ATK for each card you revealed in the hand to activate this card, also their effects are negated. If the last of those monsters is not on the field, destroy this card. You can only activate 1 &quot;Red Dragon Archfiend's Chain&quot; per turn.</text>
+      <prop>
+        <Archetype>Archfiend</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>92936364</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/92936364.jpg" uuid="c3143201-32df-5437-904d-84e10050d98f">YGO</set>
+    </card>
+    <card>
       <name>Red Dragon Archfiend/Assault Mode</name>
       <text>This card cannot be Normal Summoned or Set. This card cannot be Special Summoned except with &quot;Assault Mode Activate&quot;. If this card attacks, destroy all other monsters after damage calculation. When this card on the field is destroyed, you can Special Summon 1 &quot;Red Dragon Archfiend&quot; from your Graveyard.</text>
       <prop>
@@ -143319,6 +144114,22 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/97489701.jpg" uuid="845895b5-7c6f-5596-a07e-22776251db98">YGO</set>
+    </card>
+    <card>
+      <name>Red Nova Dragon - Burning Soul</name>
+      <text>2 Tuners + 1 non-Tuner
+ Must be either Synchro Summoned, or Special Summoned (from your Extra Deck) by banishing 2 Tuners and 1 &quot;Red Dragon Archfiend&quot; from your GY. If this card is Special Summoned: You can add 1 card from your GY to your hand, and if you do, this card gains 2000 ATK. You can only use this effect of &quot;Red Nova Dragon - Burning Soul&quot; once per Duel, and only during a Duel you Synchro Summoned &quot;Red Dragon Archfiend&quot;. Cannot be destroyed by card effects.</text>
+      <prop>
+        <Archetype>Cosmic Synchro Monster</Archetype>
+        <manacost>12</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>65541655</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Synchro Monster</Complete_Card_type>
+        <pt>3500/3000</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/65541655.jpg" uuid="6032eaa7-4d78-5a72-81a6-7bcfea635c29">YGO</set>
     </card>
     <card>
       <name>Red Nova Dragon/Assault Mode</name>
@@ -146250,6 +147061,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/49469105.jpg" uuid="e42d8e27-4ebd-5973-94ff-556720895c28">YGO</set>
     </card>
     <card>
+      <name>Revolution Cyber Dragon</name>
+      <text>If you control no monsters, you can Special Summon this card (from your hand). You can only use each of the following effects of &quot;Revolution Cyber Dragon&quot; once per turn. If this card is Special Summoned: You can target 1 face-up monster your opponent controls; negate its effects until the end of this turn. During your Main Phase: You can Fusion Summon 1 Machine Fusion Monster from your Extra Deck, using this card you control and monsters from your hand or field.</text>
+      <prop>
+        <Archetype>Cyber</Archetype>
+        <manacost>5</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>66664203</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>2100/1600</pt>
+        <type>Machine</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/66664203.jpg" uuid="ac9e59b7-1b4a-5bf8-bd4c-ec872341261a">YGO</set>
+    </card>
+    <card>
       <name>Revolution Synchron</name>
       <text>If you Synchro Summon a &quot;Power Tool&quot; monster or a Level 7 or 8 Dragon monster, this card in your hand can also be used as material. You can only use this effect of &quot;Revolution Synchron&quot; once per turn. If you control a Level 7 or higher Synchro Monster while this card is in your GY: You can send the top card of your Deck to the GY, and if you do, Special Summon this card, also its Level becomes 1. You can only use this effect of &quot;Revolution Synchron&quot; once per Duel.</text>
       <prop>
@@ -147824,6 +148650,21 @@
         <type>Spellcaster</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/44640691.jpg" uuid="98152b6f-36a3-501b-99a1-abc073f85984">YGO</set>
+    </card>
+    <card>
+      <name>Rokket Barrage</name>
+      <text>You can send 1 DARK Dragon monster from your Deck to the GY, except a Level 5 monster; Special Summon this card from your hand, also you cannot Special Summon from the Extra Deck for the rest of this turn, except DARK monsters. When a Link Monster's effect is activated that targets this card on the field (Quick Effect): You can destroy this card, then Special Summon up to 1 &quot;Rokket&quot; monster each from your hand, Deck, GY, and/or banishment, except &quot;Rokket Barrage&quot;. You can only use each effect of &quot;Rokket Barrage&quot; once per turn.</text>
+      <prop>
+        <Archetype>Rokket</Archetype>
+        <manacost>5</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>53481938</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1500/1600</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/53481938.jpg" uuid="aceaabf0-d522-54d3-858f-d80e29d4fc15">YGO</set>
     </card>
     <card>
       <name>Rokket Caliber</name>
@@ -149595,7 +150436,7 @@
     </card>
     <card>
       <name>Saber Combination</name>
-      <text>While you have 10 or more &quot;X-Saber&quot; monsters in your field, GY, and/or banishment, &quot;X-Saber&quot; monsters you control gain ATK equal to their own original DEF. You can only use each of the following effects of &quot;Saber Combination&quot; once per turn. If you Special Summon an &quot;X-Saber&quot; monster(s) from the Extra Deck (except during the Damage Step): You can Special Summon 1 &quot;X-Saber&quot; monster from your hand or Deck. When an opponent's monster declares an attack: You can Special Summon 1 &quot;X-Saber&quot; monster from your hand.</text>
+      <text>While 10 or more &quot;X-Saber&quot; monsters are in your field, GY, and/or banishment, &quot;X-Saber&quot; monsters you control gain ATK equal to their original DEF. You can only use each of the following effects of &quot;Saber Combination&quot; once per turn. If you Special Summon an &quot;X-Saber&quot; monster(s) from the Extra Deck (except during the Damage Step): You can Special Summon 1 &quot;X-Saber&quot; monster from your hand or Deck. When an opponent's monster declares an attack: You can Special Summon 1 &quot;X-Saber&quot; monster from your hand.</text>
       <prop>
         <Archetype>Saber</Archetype>
         <manacost>None</manacost>
@@ -158497,8 +159338,8 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/21623008.jpg" uuid="bf4fac03-dc03-5e26-9991-8e55ae0c4fba">YGO</set>
     </card>
     <card>
-      <name>Sky Striker Mecha - Adhilsaber</name>
-      <text>During the Battle Phase (Quick Effect): You can discard this card, then target 1 &quot;Sky Striker&quot; monster on the field; it gains 1500 ATK until the end of this turn. If a monster(s) is Special Summoned while this card is in your GY (except during the Damage Step): You can target 1 &quot;Sky Striker&quot; Link Monster you control; equip this card to it as an Equip Spell that gives it 1500 ATK. You can only use each effect of &quot;Sky Striker Mecha - Adhilsaber&quot; once per turn.</text>
+      <name>Sky Striker Mecha - Adil Saber</name>
+      <text>During the Battle Phase (Quick Effect): You can discard this card, then target 1 &quot;Sky Striker&quot; monster on the field; it gains 1500 ATK until the end of this turn. If a monster(s) is Special Summoned, while this card is in your GY (except during the Damage Step): You can target 1 &quot;Sky Striker&quot; Link Monster you control; equip this card to it as an Equip Spell that gives it 1500 ATK. You can only use each effect of &quot;Sky Striker Mecha - Adil Saber&quot; once per turn.</text>
       <prop>
         <Archetype>Saber</Archetype>
         <manacost>7</manacost>
@@ -158656,6 +159497,19 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/40522482.jpg" uuid="269be75a-cb72-5bd4-bfac-b63ae40c610f">YGO</set>
+    </card>
+    <card>
+      <name>Skyfire of the Sacred Beast</name>
+      <text>During your Main Phase: You can place 2 &quot;Skyfire of the Sacred Beast&quot; from your hand, Deck, and/or GY face-up on your field, then you can reveal 1 Level 10 &quot;Sacred Beast&quot; monster in your hand, then place 1 &quot;Fallen Paradise of the Sacred Beasts&quot; from your Deck face-up in your Field Zone. During your opponent's End Phase, if this card is in your GY: You can add it to your hand. You can only use each effect of &quot;Skyfire of the Sacred Beast&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305049</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Continuous</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305049.jpg" uuid="82c875c5-3e31-55b6-9945-549cf38b15a5">YGO</set>
     </card>
     <card>
       <name>Skypalace Gangaridai</name>
@@ -163051,6 +163905,20 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/5037726.jpg" uuid="bd9f6f8c-269c-5fca-a883-d5b86c778bc8">YGO</set>
     </card>
     <card>
+      <name>Spiritual Power Recovery Potion</name>
+      <text>(This card is always treated as a &quot;Possessed&quot; card.)
+ Banish any number of Spellcaster monsters and/or Spells from your GY; all monsters you currently control gain 200 ATK for each card banished this way, and if they do, you gain 400 LP for each card banished this way. During your Main Phase: You can banish this card from your GY; Special Summon any number of Spellcaster monsters with different Attributes from your hand. You can only use 1 &quot;Spiritual Power Recovery Potion&quot; effect per turn, and only once that turn.</text>
+      <prop>
+        <Archetype>Possessed</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305060</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Quick-Play</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305060.jpg" uuid="ea91ac1b-6f18-585c-bd92-8038ca94446e">YGO</set>
+    </card>
+    <card>
       <name>Spiritual Swords of Revealing Light</name>
       <text>Once per attack, when an opponent's monster declares an attack: You can pay 1000 LP; negate that attack. During your opponent's turn: You can banish this card from your Graveyard; this turn, your opponent's monsters cannot attack directly.</text>
       <prop>
@@ -165144,6 +166012,23 @@
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/41209827.jpg" uuid="e8460e1b-8add-52e6-b153-a99e06135e09">YGO</set>
       <set picURL="https://images.ygoprodeck.com/images/cards/41209828.jpg" uuid="cf2bf0b9-fc6e-5096-a9ee-e8fe52ce912f">YGO</set>
+    </card>
+    <card>
+      <name>Starving Venom Fusion Dragon of the Four Heavenly Dragons</name>
+      <text>2 DARK monsters on the field
+ (This card is always treated as a &quot;Predaplant&quot; card.)
+ If this card is Special Summoned: You can target 1 other face-up monster on the field; change its ATK to 0, negate its effects, also it becomes DARK. When your opponent activates a card or effect (Quick Effect): You can Fusion Summon 1 DARK Fusion Monster from your Extra Deck, using DARK monsters on either field, including this card. You can only use each effect of &quot;Starving Venom Fusion Dragon of the Four Heavenly Dragons&quot; once per turn.</text>
+      <prop>
+        <Archetype>Fusion</Archetype>
+        <manacost>8</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>27118421</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Fusion Monster</Complete_Card_type>
+        <pt>2800/2000</pt>
+        <type>Dragon</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/27118421.jpg" uuid="aa99ad5e-8bb9-59e6-9047-5913cd5ae31f">YGO</set>
     </card>
     <card>
       <name>Starving Venom Predapower Fusion Dragon</name>
@@ -169566,6 +170451,21 @@
         <type>Fish</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/55697723.jpg" uuid="f9a9fd9b-f4df-5bde-8399-b6c124427bdb">YGO</set>
+    </card>
+    <card>
+      <name>Surge Blitzclique</name>
+      <text>You can reveal this card in your hand, then target 1 monster on the field; destroy it, and if you do, Special Summon 1 Thunder monster from your hand, also you cannot Special Summon Effect Monsters for the rest of this turn, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone: You can add 1 &quot;Blitzclique&quot; monster from your Deck to your hand, except &quot;Surge Blitzclique&quot;. You can only use each effect of &quot;Surge Blitzclique&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>4</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>101305011</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1800/1200</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305011.jpg" uuid="c19a4843-6117-562d-aae2-c67df58a40e9">YGO</set>
     </card>
     <card>
       <name>Surgical Striker - H.A.M.P.</name>
@@ -175158,6 +176058,18 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/31076103.jpg" uuid="497c1ffc-a163-55ab-a5ff-fc16d9328418">YGO</set>
     </card>
     <card>
+      <name>The Flute of Guiding Dragon</name>
+      <text>If a Spellcaster monster is on the field: Special Summon 1 Level 5 or higher Dragon monster from your Deck, then if your opponent controls 2 or more monsters, you can Special Summon 1 monster from your Deck with the same name as the Summoned monster, also you cannot Special Summon for the rest of this turn, except Dragon or Spellcaster monsters. During your Main Phase 2, if this card is in your GY because it was sent there this turn: You can banish it; draw 1 card. You can only use each effect of &quot;The Flute of Guiding Dragon&quot; once per turn.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>93871599</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/93871599.jpg" uuid="a0f14608-3f80-5a81-bbf2-e6b65c2c2445">YGO</set>
+    </card>
+    <card>
       <name>The Flute of Summoning Dragon</name>
       <text>Special Summon up to 2 Dragon monsters from your hand. &quot;Lord of D.&quot; must be on the field to activate and to resolve this effect.</text>
       <prop>
@@ -175989,6 +176901,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/50433147.jpg" uuid="731693ea-1bb3-5e3f-8299-0974b00e7a6a">YGO</set>
     </card>
     <card>
+      <name>The Orchestrator of the Sacred Beasts</name>
+      <text>You can reveal this card in your hand; discard 1 card, and if you do, Special Summon 1 &quot;Sacred Beast&quot; monster from your hand in Defense Position, except a Level 8 monster. You can discard 1 card; Special Summon 1 &quot;Sacred Beast&quot; monster from your hand or GY in Defense Position, except a Level 8 monster or the discarded card. You can banish this card from your GY; Special Summon 1 &quot;Sacred Beast&quot; monster from your GY in Defense Postion, except a Level 8 monster. You can only use each effect of &quot;The Orchestrator of the Sacred Beasts&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>8</manacost>
+        <colors>LIGHT</colors>
+        <Konami_ID>101305008</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>2300/3000</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305008.jpg" uuid="dae2856c-7e54-57ea-bff3-78abddd74922">YGO</set>
+    </card>
+    <card>
       <name>The Paths of Destiny</name>
       <text>Both players toss a coin once. If a player's result is Heads, they gain 2000 Life Points, and if their result is Tails, they take 2000 damage.</text>
       <prop>
@@ -176076,6 +177003,36 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/24212820.jpg" uuid="870e9502-af80-5ede-ba0a-93114e73fff9">YGO</set>
     </card>
     <card>
+      <name>The Phantom Knights of Decayed Cloak</name>
+      <text>You can reveal 1 other &quot;The Phantom Knights&quot; card in your hand; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 &quot;The Phantom Knights&quot; monster from your Deck to your hand. You can banish this card from your GY, then target 1 Xyz Monster you control; this turn, you can use it as material for an Xyz Summon using its Rank as if it were a Level. You can only use each effect of &quot;The Phantom Knights of Decayed Cloak&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantom Knights</Archetype>
+        <manacost>3</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305018</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>1000/300</pt>
+        <type>Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305018.jpg" uuid="d3d67b6b-3b04-5691-9e00-91a7d5a9ef7e">YGO</set>
+    </card>
+    <card>
+      <name>The Phantom Knights of Doomed Solleret</name>
+      <text>If you control no monsters, you can Special Summon this card (from your hand). You can only Special Summon &quot;The Phantom Knights of Doomed Solleret&quot; once per turn this way. You can only use each of the following effects of &quot;The Phantom Knights of Doomed Solleret&quot; once per turn. If this card is Normal or Special Summoned: You can Set 1 &quot;The Phantom Knights&quot; Spell/Trap from your Deck. You can banish this card from your GY, then target up to 2 Level/Rank 3 DARK monsters you control; increase their Levels/Ranks by 1.</text>
+      <prop>
+        <Archetype>Phantom Knights</Archetype>
+        <manacost>3</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305019</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>400/1400</pt>
+        <type>Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305019.jpg" uuid="800fd77e-ef36-5898-ad6e-51b1653bb90c">YGO</set>
+    </card>
+    <card>
       <name>The Phantom Knights of Fragile Armor</name>
       <text>If a face-up &quot;The Phantom Knights&quot; monster(s) you control is destroyed by battle or card effect: You can Special Summon this card from your hand. You can banish this card from your GY and send 1 &quot;Phantom Knights&quot; card from your hand to the GY; draw 1 card. You can only use each effect of &quot;The Phantom Knights of Fragile Armor&quot; once per turn.</text>
       <prop>
@@ -176102,6 +177059,22 @@
         <type>Normal</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/36247316.jpg" uuid="462ef6b1-04b0-5e13-8301-b27131fe83c7">YGO</set>
+    </card>
+    <card>
+      <name>The Phantom Knights of Malevolent Scythe</name>
+      <text>2 Level 3 DARK monsters
+ You can detach 1 material from this card; Special Summon 1 &quot;The Phantom Knights&quot; monster from your Deck. If you Xyz Summon an &quot;Xyz Dragon&quot; monster while this card is in the Monster Zone: You can add 1 &quot;Rank-Up-Magic&quot; Spell from your Deck to your hand. If this card is destroyed: You can add 1 of your banished &quot;The Phantom Knights&quot; cards to your hand, except an Xyz Monster. You can only use each effect of &quot;The Phantom Knights of Malevolent Scythe&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantom Knights</Archetype>
+        <manacost>3</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305037</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>XYZ Monster</Complete_Card_type>
+        <pt>1900/0</pt>
+        <type>Warrior</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305037.jpg" uuid="760cb592-4887-5caa-9123-0dd2f4a9cf68">YGO</set>
     </card>
     <card>
       <name>The Phantom Knights of Mist Claws</name>
@@ -176232,6 +177205,19 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/25538345.jpg" uuid="ad2eab76-8400-50b2-98b7-5dc6de01ff5c">YGO</set>
     </card>
     <card>
+      <name>The Phantom Knights of Umbrage Veil</name>
+      <text>If you have a &quot;The Phantom Knights&quot; monster in your field or GY, you can activate this card the turn it was Set. Special Summon this card in Defense Position as a Normal Monster (Warrior/DARK/Level 3/ATK 0/DEF 300) (this card is NOT treated as a Trap), then you can change 1 Attack Position monster your opponent controls to Defense Position. You can banish this card from your GY; immediately after this effect resolves, Xyz Summon 1 DARK Xyz Monster. You can only use each effect of &quot;The Phantom Knights of Umbrage Veil&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantom Knights</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305073</Konami_ID>
+        <maintype>Trap Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305073.jpg" uuid="2b83583f-95e4-54af-9875-1951779c3dcf">YGO</set>
+    </card>
+    <card>
       <name>The Phantom Knights of Wrong Magnetring</name>
       <text>When an opponent's monster declares an attack: Negate that attack, then Special Summon this card in Attack Position as an Effect Monster (Warrior/DARK/Level 2/ATK 0/DEF 0) with the following effect. (This card is NOT treated as a Trap.) ● (Quick Effect): You can send this card and 1 face-up card you control to the GY (either a &quot;The Phantom Knights&quot; monster or a &quot;Phantom Knights&quot; Continuous Spell/Trap); draw 2 cards.</text>
       <prop>
@@ -176256,6 +177242,19 @@
         <type>Quick-Play</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/3298689.jpg" uuid="5b3584d1-110e-59f0-8537-a6551b66b978">YGO</set>
+    </card>
+    <card>
+      <name>The Phantom Knights' Rank-Up-Magic Requiem</name>
+      <text>Target 1 &quot;The Phantom Knights&quot; or &quot;Xyz Dragon&quot; monster in your GY or banishment; Special Summon it (but negate its effects), then Special Summon from your Extra Deck, 1 &quot;The Phantom Knights&quot; or &quot;Xyz Dragon&quot; Xyz Monster that is 1 Rank higher than a DARK Xyz Monster you control, by using that monster as material (this is treated as an Xyz Summon, transfer its materials). You can only activate 1 &quot;The Phantom Knights' Rank-Up-Magic Requiem&quot; per turn.</text>
+      <prop>
+        <Archetype>Phantom Knights</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305057</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305057.jpg" uuid="127c051c-56ea-5463-9215-9e84ceed78c5">YGO</set>
     </card>
     <card>
       <name>The Portrait's Secret</name>
@@ -180309,6 +181308,18 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/15259704.jpg" uuid="309c6c98-87f0-5eb4-8a23-0bf40fb0fe2f">YGO</set>
     </card>
     <card>
+      <name>Toon World the Perfect World</name>
+      <text>This card's name becomes &quot;Toon World&quot; while in the Field Zone. Once per turn: You can add 1 &quot;Toon&quot; card, or 1 card that mentions a &quot;Toon&quot; card's name, from your Deck to your hand. You can only use this effect of &quot;Toon World the Perfect World&quot; thrice per turn. Before resolving another activated card or effect, you can banish 1 Toon monster you control until immediately after that card/effect resolves, also you cannot banish monsters with that same original name with this effect of &quot;Toon World the Perfect World&quot; for the rest of this turn.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>100455006</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Field</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/100455006.jpg" uuid="d738cd04-749d-5c88-bd45-a6e1d859cfb1">YGO</set>
+    </card>
+    <card>
       <name>Top Runner</name>
       <text>All face-up Synchro Monsters you control gain 600 ATK.</text>
       <prop>
@@ -183179,6 +184190,22 @@
         <type>Dragon</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/48568432.jpg" uuid="061a9da7-f4b7-5170-ae39-f4f1027297d8">YGO</set>
+    </card>
+    <card>
+      <name>Triple Borrel Launch</name>
+      <text>Activate 1 of these effects (but you can only use each effect of &quot;Triple Borrel Launch&quot; once per turn);
+ ● Shuffle 1 Dragon monster from your GY into the Deck, then you can Special Summon 1 &quot;Rokket&quot; monster with a different name from your Deck.
+ ● Shuffle 2 Dragon monsters from your GY into the Deck, then add 1 Field Spell from your GY to your hand.
+ ● Shuffle 3 Dragon monsters from your GY into the Deck, then shuffle up to 3 monsters from your opponent's GY into the Deck.</text>
+      <prop>
+        <Archetype>Borrel</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>89875646</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Quick-Play</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/89875646.jpg" uuid="d28d72e6-5e22-5d9f-aed0-10e8a5574682">YGO</set>
     </card>
     <card>
       <name>Triple Burst Dragon</name>
@@ -186615,6 +187642,19 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/25661743.jpg" uuid="59b857dd-c026-5fbb-bca1-6b5651ad4736">YGO</set>
     </card>
     <card>
+      <name>Unleashing the Sacred Beasts</name>
+      <text>Add 3 &quot;Sacred Beast&quot; monsters with different names from your Deck to your hand, then discard 2 cards. If this card is in your GY, except the turn it was sent there: You can banish it; add 1 Level 10 Pyro, Thunder, or Fiend monster that cannot be Normal Summoned/Set from your Deck to your hand. You can only use each effect of &quot;Unleashing the Sacred Beasts&quot; once per turn.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>None</manacost>
+        <colors>NORMAL</colors>
+        <Konami_ID>101305047</Konami_ID>
+        <maintype>Spell Card</maintype>
+        <type>Normal</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305047.jpg" uuid="898803dc-f2b5-5a89-a7ed-30f29f671ac2">YGO</set>
+    </card>
+    <card>
       <name>Unlocking the Power</name>
       <text>When you Special Summon &quot;Uria, Lord of Searing Flames&quot;, &quot;Hamon, Lord of Striking Thunder&quot;, or &quot;Raviel, Lord of Phantasms&quot; using the method mentioned on that card, you can use face-up Fiend monsters, Continuous Spells, and/or Continuous Traps you control, regardless of the card type the text requires.</text>
       <prop>
@@ -186849,6 +187889,21 @@
         <type>Pyro</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/6007213.jpg" uuid="01024e42-ec36-5560-883a-8e2985e6dfed">YGO</set>
+    </card>
+    <card>
+      <name>Uria, Lord of Searing Flames - Sacred Beast of Cataclysmic Fire</name>
+      <text>Cannot be Normal Summoned/Set. Must be Special Summoned with a &quot;Sacred Beast&quot; card. You can reveal this card in your hand; add 1 &quot;Sacred Beast&quot; Trap from your Deck to your hand, then discard 1 card. You can only use this effect of &quot;Uria, Lord of Searing Flames - Sacred Beast of Cataclysmic Fire&quot; once per turn. Gains 1000 ATK/DEF for each Trap in the GYs. Once per turn (Quick Effect): You can target 1 Spell/Trap on the field; destroy it. Neither player can activate cards or effects in response to this effect's activation.</text>
+      <prop>
+        <Archetype>Phantasm</Archetype>
+        <manacost>10</manacost>
+        <colors>FIRE</colors>
+        <Konami_ID>101305005</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>0/0</pt>
+        <type>Pyro</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305005.jpg" uuid="70a6ad06-1ef3-5697-8426-6a1a59be81e0">YGO</set>
     </card>
     <card>
       <name>Ursarctic Big Dipper</name>
@@ -195167,6 +196222,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/34507039.jpg" uuid="4f93ebd8-dc3c-5d7c-b3b4-8656f4ab941f">YGO</set>
     </card>
     <card>
+      <name>Wisca Blitzclique</name>
+      <text>If a card(s) was destroyed by your &quot;Blitzclique&quot; card's effect this turn (Quick Effect): You can reveal this card in your hand; Special Summon up to 3 Thunder monsters from your hand, then you can destroy up to that many cards on the field, also you cannot Special Summon Effect Monsters for the rest of this turn, except from the hand. When a monster effect is activated, except in the hand (Quick Effect): You can return 1 other Thunder monster you control to the hand; negate the activation, and if you do, destroy the activating monster. You can only use each effect of &quot;Wisca Blitzclique&quot; once per turn.</text>
+      <prop>
+        <Archetype>Blitzclique</Archetype>
+        <manacost>8</manacost>
+        <colors>EARTH</colors>
+        <Konami_ID>101305010</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Effect Monster</Complete_Card_type>
+        <pt>3000/2400</pt>
+        <type>Thunder</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305010.jpg" uuid="6941de6c-e585-5ad8-82b8-9621afc80dac">YGO</set>
+    </card>
+    <card>
       <name>Wisdom-Eye Magician</name>
       <text>[ Pendulum Effect ]  If you have a &quot;Magician&quot; or &quot;Performapal&quot; card in your other Pendulum Zone: You can destroy this card, and if you do, place 1 &quot;Magician&quot; Pendulum Monster from your Deck in your Pendulum Zone, except &quot;Wisdom-Eye Magician&quot;.  [ Monster Effect ]  You can discard this card, then target 1 card in your Pendulum Zone, whose current Pendulum Scale is different from its original Pendulum Scale; its Pendulum Scale becomes its original Pendulum Scale until the end of this turn.</text>
       <prop>
@@ -197286,7 +198356,7 @@
     <card>
       <name>X-Saber Gottoms</name>
       <text>1 Tuner + 1+ EARTH monsters
- If this card is Synchro Summoned: You can add 1 &quot;Saber&quot; or &quot;Gottoms&quot; Spell/Trap from your Deck to your hand. When this card inflicts battle damage to your opponent: You can discard 1 random card from their hand. When your &quot;X-Saber&quot; monster is targeted for an attack while this card is in your GY: You can Special Summon this card, then change the attack target to it. You can only use each effect of &quot;X-Saber Gottoms&quot; once per turn.</text>
+ If this card is Synchro Summoned: You can add 1 &quot;Saber&quot; or &quot;Gottoms&quot; Spell/Trap from your Deck to your hand. When this card inflicts battle damage to your opponent: You can discard 1 random card from their hand. When your &quot;X-Saber&quot; monster is targeted for an attack while this card is in your GY: You can Special Summon this card, then change the attack target to this card. You can only use each effect of &quot;X-Saber Gottoms&quot; once per turn.</text>
       <prop>
         <Archetype>Gottoms</Archetype>
         <manacost>7</manacost>
@@ -197330,11 +198400,11 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/23093604.jpg" uuid="c922bdbb-97da-5cf3-bca7-ee67df8efbe4">YGO</set>
     </card>
     <card>
-      <name>X-Saber Perina</name>
-      <text>If this card is Normal or Special Summoned: You can send this card to the GY; Special Summon 2 &quot;X-Saber&quot; monsters from your Deck, except &quot;X-Saber Perina&quot;, but destroy them during the End Phase. If this card is sent to the GY as material for an &quot;X-Saber&quot; Synchro Monster: You can apply 1 of these effects.
- ● It can make a second attack during each Battle Phase.
- ● It can attack directly.
- You can only use each effect of &quot;X-Saber Perina&quot; once per turn.</text>
+      <name>X-Saber Pellina</name>
+      <text>If this card is Normal or Special Summoned: You can send it to the GY; Special Summon 2 &quot;X-Saber&quot; monsters from your Deck, except &quot;X-Saber Pellina&quot;, but destroy them during the End Phase. If this card is sent to the GY as Synchro Material for an &quot;X-Saber&quot; monster: You can apply 1 of these effects.
+ ● That monster can make a second attack during each Battle Phase.
+ ● That monster can attack directly.
+ You can only use each effect of &quot;X-Saber Pellina&quot; once per turn.</text>
       <prop>
         <Archetype>Saber</Archetype>
         <manacost>4</manacost>
@@ -199894,6 +200964,21 @@
       <set picURL="https://images.ygoprodeck.com/images/cards/29999161.jpg" uuid="dc9bfe2c-c71b-5377-af8f-af2ed1690a50">YGO</set>
     </card>
     <card>
+      <name>Zenna-no-Tsuinagihime</name>
+      <text>2+ Effect Monsters
+ You can also use 1 monster in your hand as material to Link Summon this card. If this card is Link Summoned: You can send 1 monster from your Deck to the GY, or if this card was Link Summoned using only monsters you control, you can send 1 monster from your Extra Deck to the GY instead. During your next Standby Phase after this card was sent from the field to the GY: You can add 1 monster from your GY to your hand. You can only use each effect of &quot;Zenna-no-Tsuinagihime&quot; once per turn.</text>
+      <prop>
+        <manacost>None</manacost>
+        <colors>DARK</colors>
+        <Konami_ID>101305043</Konami_ID>
+        <maintype>Monster</maintype>
+        <Complete_Card_type>Link Monster</Complete_Card_type>
+        <pt>0/None</pt>
+        <type>Machine</type>
+      </prop>
+      <set picURL="https://images.ygoprodeck.com/images/cards/101305043.jpg" uuid="4870b9f5-4b96-5afd-85d3-9a1fa1cfeacf">YGO</set>
+    </card>
+    <card>
       <name>Zep, Ruby of the Ghoti</name>
       <text>You can banish this card from your hand, then target 1 Fish monster in your GY; banish it. During your opponent's turn, if this card is banished: You can Special Summon it. If this card is Special Summoned, you can (except during the Damage Step): Immediately after this effect resolves, Synchro Summon 1 Fish Synchro Monster using this card you control. You can only use each effect of &quot;Zep, Ruby of the Ghoti&quot; once per turn.</text>
       <prop>
@@ -199948,20 +201033,6 @@
         <type>Fairy</type>
       </prop>
       <set picURL="https://images.ygoprodeck.com/images/cards/12171659.jpg" uuid="b386a6a8-058b-5d1d-9906-edbe04e66d2b">YGO</set>
-    </card>
-    <card>
-      <name>Zereort Migrator</name>
-      <text>If a WATER Xyz Monster is on the field: You can Special Summon this card from your hand. During your Main Phase: You can detach 1 Xyz Material from a monster you control, then you can Special Summon 1 Level 3 or 4 WATER monster from your hand or GY, but its effects are negated, also if it is used for the Xyz Summon of a WATER monster this turn, it can be treated as a Level 5 monster. You can only use each effect of &quot;Zereort Migrator&quot; once per turn.</text>
-      <prop>
-        <manacost>5</manacost>
-        <colors>WATER</colors>
-        <Konami_ID>87640391</Konami_ID>
-        <maintype>Monster</maintype>
-        <Complete_Card_type>Effect Monster</Complete_Card_type>
-        <pt>1000/2200</pt>
-        <type>Winged Beast</type>
-      </prop>
-      <set picURL="https://images.ygoprodeck.com/images/cards/87640391.jpg" uuid="73910069-6f16-52c5-83d4-2892f1a6665d">YGO</set>
     </card>
     <card>
       <name>Zero Extra Link</name>
